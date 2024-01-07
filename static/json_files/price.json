@@ -1,0 +1,106 @@
+{
+  "okko": [
+    {
+      "price": 57.99,
+      "name": "ДП",
+      "brand": "pulls",
+      "fuel_code": "Pulls Diesel"
+    },
+    {
+      "price": 54.99,
+      "name": "ДП",
+      "brand": "euro",
+      "fuel_code": "DP"
+    },
+    {
+      "price": 56.99,
+      "name": "95",
+      "brand": "pulls",
+      "fuel_code": "Pulls 95"
+    },
+    {
+      "price": 54.99,
+      "name": "95",
+      "brand": "euro",
+      "fuel_code": "A-95"
+    },
+    {
+      "price": 32.49,
+      "name": "ГАЗ",
+      "brand": "",
+      "fuel_code": "SPBT"
+    },
+    {
+      "price": "39.90",
+      "name": "AdBlue",
+      "brand": "",
+      "fuel_code": ""
+    }
+  ],
+  "wog": [
+    {
+      "price": 54.99,
+      "brand": "Євро5",
+      "name": "ДП"
+    },
+    {
+      "price": 57.99,
+      "brand": "Mustang+",
+      "name": "ДП"
+    },
+    {
+      "price": 54.99,
+      "brand": "Євро5",
+      "name": "95"
+    },
+    {
+      "price": 56.99,
+      "brand": "Mustang",
+      "name": "95"
+    }
+  ],
+  "ukrnafta": [
+    {
+      "price": 51.90,
+      "name": "A-95+"
+    },
+    {
+      "price": 49.90,
+      "name": "A-95"
+    },
+    {
+      "price": 47.90,
+      "name": "A-92"
+    },
+    {
+      "price": 50.90,
+      "name": "DP"
+    },
+    {
+      "price": 31.00,
+      "name": "Gas"
+    }
+  ],
+  "anp": [
+    {
+      "price": 51.50,
+      "name": "A-95+"
+    },
+    {
+      "price": 50.02,
+      "name": "A-95"
+    },
+    {
+      "price": 48.70,
+      "name": "A-92"
+    },
+    {
+      "price": 50.35,
+      "name": "DP"
+    },
+    {
+      "price": 32.50,
+      "name": "Gas"
+    }
+  ]
+}
