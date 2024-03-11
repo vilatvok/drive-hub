@@ -1,63 +1,90 @@
-from rest_framework.response import Response
-from rest_framework import mixins
-from rest_framework.viewsets import GenericViewSet
-from rest_framework.generics import ListAPIView
-from rest_framework.permissions import IsAuthenticated
-from rest_framework.status import HTTP_201_CREATED
-
 from django.db.models import Q
+from django.shortcuts import get_object_or_404
 
-from .models import Fine, ElectricCar, FuelCar
-from .serializers import *
-from .permissions import IsPassport
+from rest_framework import status
+from rest_framework.response import Response
+from rest_framework.viewsets import ViewSet, ReadOnlyModelViewSet
+from rest_framework.permissions import IsAuthenticated
+
+from cars.models import Fine, ElectricCar, FuelCar
+from cars.serializers import FuelCarSerializer, ElectricCarSerializer, FineSerializer
+from cars.permissions import IsPassport
 
 
-class CarViewSet(mixins.ListModelMixin, mixins.CreateModelMixin, GenericViewSet):
-    serializer_class = Pass
+class CarViewSet(ViewSet):
     permission_classes = [IsAuthenticated, IsPassport]
+    lookup_field = 'registration_number'
 
     def get_queryset(self):
-        elect = ElectricCar.objects.filter(owner=self.request.user).select_related(
-            "owner"
+        elect = (
+            ElectricCar.objects.select_related('owner').
+            filter(owner=self.request.user)
         )
-        fuel = FuelCar.objects.filter(owner=self.request.user).select_related("owner")
+        fuel = (
+            FuelCar.objects.select_related('owner').
+            filter(owner=self.request.user)
+        )
         return (elect, fuel)
-
+    
     def list(self, request, *args, **kwargs):
-        elec, fuel = self.filter_queryset(self.get_queryset())
+        elec, fuel = self.get_queryset()
         fuel_ser = FuelCarSerializer(fuel, many=True)
         elec_ser = ElectricCarSerializer(elec, many=True)
         return Response(fuel_ser.data + elec_ser.data)
 
     def create(self, request, *args, **kwargs):
-        type_car = request.data.get("car_type")
+        type_car = request.data.get('car_type')
 
-        if type_car == "electric":
+        if type_car == 'electric':
             serializer = ElectricCarSerializer(data=request.data)
-        elif type_car == "fuel":
+        elif type_car == 'fuel':
             serializer = FuelCarSerializer(data=request.data)
 
         serializer.is_valid(raise_exception=True)
         serializer.save(owner=request.user)
-        return Response(serializer.data, status=HTTP_201_CREATED)
+        return Response(serializer.data, status.HTTP_201_CREATED)
+    
+    def get_object(self):
+        q, q2 = self.get_queryset()
+
+        lookup_url_kwarg = self.lookup_field
+        assert lookup_url_kwarg in self.kwargs, (
+            (self.__class__.__name__, lookup_url_kwarg)
+        )
+        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
+        try:
+            obj = get_object_or_404(q, **filter_kwargs)
+        except:
+            obj = get_object_or_404(q2, **filter_kwargs)
+
+        # May raise a permission denied
+        self.check_object_permissions(self.request, obj)
+        return obj
+
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        if hasattr(instance, 'fuel_efficiency'):
+            serializer = FuelCarSerializer(instance)
+        else:
+            serializer = ElectricCarSerializer(instance)
+        return Response(serializer.data)
+    
+    def destroy(self, request, *args, **kwargs):
+        instance = self.get_object()
+        instance.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-class FineView(ListAPIView):
+class FineViewSet(ReadOnlyModelViewSet):
     serializer_class = FineSerializer
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
         return (
-            Fine.objects.filter(
-                Q(
-                    person=self.request.user,
-                    fuel__verified="verified",
-                )
-                | Q(
-                    person=self.request.user,
-                    elec__verified="verified",
-                )
+            Fine.objects.select_related('person').prefetch_related('car').
+            filter(
+                Q(person=self.request.user, fuel__verified='verified') |
+                Q(person=self.request.user, elec__verified='verified')
             )
-            .select_related("person")
-            .prefetch_related("car")
         )
+        

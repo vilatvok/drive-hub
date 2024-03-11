@@ -1,15 +1,17 @@
-from rest_framework.viewsets import ReadOnlyModelViewSet
+from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
 from rest_framework.pagination import PageNumberPagination
 
 
 class StationPaginate(PageNumberPagination):
     page_size = 10
-    page_size_query_param = "page_size"
+    page_size_query_param = 'page_size'
     max_page_size = 50
 
 
-class BaseStationMixin(ReadOnlyModelViewSet):
+class BaseStationMixin(ListAPIView):
+    """Mixin for apiview stations."""
+
     pagination_class = StationPaginate
     serializer_class = None
     queryset = None
@@ -18,10 +20,10 @@ class BaseStationMixin(ReadOnlyModelViewSet):
     def get_queryset(self):
         return self.queryset
 
-    def list(self, request, *args, **kwargs):
+    def get(self, request, *args, **kwargs):
         queryset = self.filter_queryset(self.get_queryset())
 
-        city = request.query_params.get("city")
+        city = request.query_params.get('city')
         if city:
             filter_query = [
                 station

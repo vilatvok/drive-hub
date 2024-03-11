@@ -3,12 +3,12 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework.status import HTTP_201_CREATED
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
-from .permissions import IsOwner
+from enterprises.permissions import IsOwner
 
 
 class EnterpriseMixin(ModelViewSet):
     permission_classes = [IsAuthenticatedOrReadOnly, IsOwner]
-    lookup_field = "slug"
+    lookup_field = 'slug'
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)

@@ -12,7 +12,7 @@ class User(AbstractUser):
     slug = models.SlugField(unique=True, max_length=180, blank=True, null=True)
     email = models.EmailField(unique=True)
     phone = PhoneNumberField(unique=True, blank=True, null=True)
-    avatar = models.ImageField(upload_to="users/", blank=True)
+    avatar = models.ImageField(upload_to='users/', blank=True)
 
     def save(self, *args, **kwargs):
         if not self.slug:
@@ -21,40 +21,40 @@ class User(AbstractUser):
 
 
 class Comment(models.Model):
-    user = models.ForeignKey("User", on_delete=models.CASCADE, related_name="comment")
+    user = models.ForeignKey('User', on_delete=models.CASCADE, related_name='comments')
     message = models.TextField()
     date = models.DateTimeField(auto_now_add=True)
-    likes = models.ManyToManyField("User", related_name="likes_comment", blank=True)
+    likes = models.ManyToManyField('User', related_name='likes_comment', blank=True)
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
     object_id = models.PositiveIntegerField()
-    comment_object = GenericForeignKey("content_type", "object_id")
+    comment_object = GenericForeignKey('content_type', 'object_id')
 
     def __str__(self):
-        return f"{self.user} - {self.message}"
+        return f'{self.user} - {self.message}'
 
 
 class Rating(models.Model):
     RATE_CHOICES = [
-        (1, "1"),
-        (2, "2"),
-        (3, "3"),
-        (4, "4"),
-        (5, "5"),
+        (1, '1'),
+        (2, '2'),
+        (3, '3'),
+        (4, '4'),
+        (5, '5'),
     ]
 
-    user = models.ForeignKey("User", on_delete=models.CASCADE, related_name="rating")
+    user = models.ForeignKey('User', on_delete=models.CASCADE, related_name='rating')
     rate = models.IntegerField(choices=RATE_CHOICES)
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
     object_id = models.PositiveIntegerField()
-    rating_object = GenericForeignKey("content_type", "object_id")
+    rating_object = GenericForeignKey('content_type', 'object_id')
 
     def __str__(self):
-        return f"{self.user} rate {self.rate} - {self.rating_object.name}"
+        return f'{self.user} rate {self.rate} - {self.rating_object.name}'
 
 
 class Passport(models.Model):
     user = models.OneToOneField(
-        "User", on_delete=models.CASCADE, related_name="passport"
+        'User', on_delete=models.CASCADE, related_name='passport'
     )
     id_number = models.CharField(
         unique=True, validators=[MinLengthValidator(9), MaxLengthValidator(9)]
@@ -78,13 +78,12 @@ class Achievement(models.Model):
 
 class UserAchievement(models.Model):
     user = models.ForeignKey(
-        "User", on_delete=models.CASCADE, related_name="achievements"
+        'User', on_delete=models.CASCADE, related_name='achievements'
     )
     user_achievement = models.ManyToManyField(
-        Achievement, related_name="user_achievements"
+        Achievement, related_name='user_achievements'
     )
     date_achievement = models.DateTimeField(auto_now_add=True)
-
 
     def __str__(self):
         return self.user.get_username()

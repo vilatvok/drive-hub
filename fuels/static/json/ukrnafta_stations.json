@@ -1,0 +1,5007 @@
+[
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/001",
+    "address": "м. Немирів, а/ш Львів-Кіровоград-Знам'янка 412 км+192 (праворуч)",
+    "location": {
+      "lat": 48.978611,
+      "lng": 28.819166
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/002",
+    "address": "м. Калинівка, вул. Шмідта, 5 б",
+    "location": {
+      "lat": 49.438226,
+      "lng": 28.526345
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/004",
+    "address": "с. Уланів, а/ш Бердичів-Хмільник-Біликівці 39+950 (ліворуч)",
+    "location": {
+      "lat": 49.7051591,
+      "lng": 28.1308151
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/005",
+    "address": "смт Літин, вул. Радянська, 68",
+    "location": {
+      "lat": 49.337689,
+      "lng": 28.066769
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/006",
+    "address": "м. Калинівка, вул. Українська, 1а",
+    "location": {
+      "lat": 49.4154925,
+      "lng": 28.5248503
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/007",
+    "address": "м. Гайсин, вул. Груднева, буд. 5",
+    "location": {
+      "lat": 48.798289,
+      "lng": 29.409939
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/008",
+    "address": "с. Краснопілка, вул. Уманська, буд. 1 а",
+    "location": {
+      "lat": 48.7949545,
+      "lng": 29.7249723
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/009",
+    "address": "с. Якушинці, а/ш Львів-Кіровоград-Знам'янка 353 км+180 (праворуч)",
+    "location": {
+      "lat": 49.2498512,
+      "lng": 28.3690086
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/010",
+    "address": "с. Вінницькі Хутори, вул. Немирівське шосе, 88",
+    "location": {
+      "lat": 49.226651,
+      "lng": 28.539439
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/011",
+    "address": "м. Бар, вул. Героїв Майдану, 55",
+    "location": {
+      "lat": 49.085189,
+      "lng": 27.691689
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/012",
+    "address": "с. Сокілець, а/ш Кремінець-Біла Церква, км. 235+350 (праворуч)",
+    "location": {
+      "lat": 49.697109,
+      "lng": 28.807249
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/016",
+    "address": "м. Калинівка, а/ш Житомир-Кишинів, 107км.",
+    "location": {
+      "lat": 49.379665,
+      "lng": 28.514471
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/020",
+    "address": "смт Стрижівка, вул. Київське шосе 2 км",
+    "location": {
+      "lat": 49.285,
+      "lng": 28.47839
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/021",
+    "address": "с. Мітлинці, а/д Стрий-Тернопіль-Кіровоград-Знам'янка, 480км+684",
+    "location": {
+      "lat": 48.830831,
+      "lng": 29.336789
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/024",
+    "address": "с. Бохоники, вул. Пирогова, 151в.",
+    "location": {
+      "lat": 49.211619,
+      "lng": 28.427569
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "01/026",
+    "address": "м. Вінниця, вул. Привокзальна, 3 А",
+    "location": {
+      "lat": 49.236201,
+      "lng": 28.507189
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/001",
+    "address": "с. Зміїнець, вул. Луцька, буд. 2 в",
+    "location": {
+      "lat": 50.7606794,
+      "lng": 25.2830173
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/002",
+    "address": "с. Рованці, вул. Будівельна, буд. 1 а",
+    "location": {
+      "lat": 50.720944,
+      "lng": 25.335288
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/003",
+    "address": "с. Жабка, вул. Чкалова, 2-В",
+    "location": {
+      "lat": 50.820957,
+      "lng": 25.428758
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/004",
+    "address": "с. Струмівка, вул. Рівненська , 88 б",
+    "location": {
+      "lat": 50.747922,
+      "lng": 25.441648
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/005",
+    "address": "м. Луцьк, вул. Карпенка-Карого, буд. 1 б",
+    "location": {
+      "lat": 50.751527,
+      "lng": 25.355287
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/006",
+    "address": "смт Торчин, вул. Незалежності, 41 а",
+    "location": {
+      "lat": 50.769484,
+      "lng": 25.013595
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/007",
+    "address": "м. Луцьк, вул. Дубнівська (вул. 50 років СРСР), 41",
+    "location": {
+      "lat": 50.737487,
+      "lng": 25.368161
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/008",
+    "address": "с. Видраниця, вул. Центральна, 2-б",
+    "location": {
+      "lat": 51.632849,
+      "lng": 24.559089
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/009",
+    "address": "м. Ковель, вул. Володимирська, 133",
+    "location": {
+      "lat": 51.201949,
+      "lng": 24.678479
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/010",
+    "address": "с. Старовойтове, вул. Прикордонників, 11",
+    "location": {
+      "lat": 51.1943174,
+      "lng": 23.8351036
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/011",
+    "address": "с. Старовойтове, вул. Прикордонників, 10",
+    "location": {
+      "lat": 51.195243,
+      "lng": 23.8330373
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/012",
+    "address": "м. Камінь-Каширський, вул. Ковельска (вул. Жовтневої Революції), 99 б",
+    "location": {
+      "lat": 51.612814,
+      "lng": 24.960444
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/013",
+    "address": "смт Стара Вижівка, вул. Ковельська, 16",
+    "location": {
+      "lat": 51.426989,
+      "lng": 24.442295
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/014",
+    "address": "с. Колодяжне, вул. Луцька, 33",
+    "location": {
+      "lat": 51.194836,
+      "lng": 24.766306
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/015",
+    "address": "м. Любомиль, вул. Брестська, 5",
+    "location": {
+      "lat": 51.228841,
+      "lng": 24.0325646
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/016",
+    "address": "с. Старовойтове, вул. Зарічна, буд. 15",
+    "location": {
+      "lat": 51.195168,
+      "lng": 23.836685
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/017",
+    "address": "смт Шацьк, вул. 50 років Перемоги, 89 а",
+    "location": {
+      "lat": 51.497334,
+      "lng": 23.919277
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/018",
+    "address": "с. Верба, вул. Ковельска, 1 б",
+    "location": {
+      "lat": 50.8787404,
+      "lng": 24.3281083
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/019",
+    "address": "м. Нововолинськ, вул. Автобусна, буд. 11А",
+    "location": {
+      "lat": 50.724358,
+      "lng": 24.153561
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/020",
+    "address": "м. Устилуг, вул. Володимирська (вул. Леніна), 2-А",
+    "location": {
+      "lat": 50.863556,
+      "lng": 24.167557
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/021",
+    "address": "м. Нововолинськ, вул. Сокальська, буд. 21",
+    "location": {
+      "lat": 50.707311,
+      "lng": 24.154961
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "02/023",
+    "address": "м. Луцьк, вул. Яровиця (вул. Жданова), буд. 3",
+    "location": {
+      "lat": 50.754014,
+      "lng": 25.326949
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/021",
+    "address": "м. Дніпро, пр. Героїв, буд. 2 а",
+    "location": {
+      "lat": 48.423056,
+      "lng": 35.062222
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/022",
+    "address": "м. Дніпро, вул. Старокодацька, буд. 1",
+    "location": {
+      "lat": 48.387778,
+      "lng": 35.041667
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/054",
+    "address": "м. Солоне, вул. Шевченко, буд. 26",
+    "location": {
+      "lat": 48.210945,
+      "lng": 34.893528
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/055",
+    "address": "с. Камяне, вул. Чкалова, буд. 2-А",
+    "location": {
+      "lat": 48.196738,
+      "lng": 34.962201
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/056",
+    "address": "с. Камяне, вул. Чкалова, буд. 1-А",
+    "location": {
+      "lat": 48.198686,
+      "lng": 34.963078
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/012",
+    "address": "с. Марянське, вул. Першого Травня, 2 а",
+    "location": {
+      "lat": 47.535466,
+      "lng": 33.92747
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/017",
+    "address": "с. Вишневе, вул. Ювілейна, 1Г",
+    "location": {
+      "lat": 48.030834,
+      "lng": 33.827221
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/019",
+    "address": "м. Зеленодольськ, вул. Енергетична, 19 а",
+    "location": {
+      "lat": 47.573475,
+      "lng": 33.654006
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/020",
+    "address": "смт Широке, вул. Леніна, 1",
+    "location": {
+      "lat": 47.697915,
+      "lng": 33.271101
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/024",
+    "address": "м. Орджонікідзе, вул. Чехова, буд. 25",
+    "location": {
+      "lat": 47.662029,
+      "lng": 34.108028
+    },
+    "accuracy": 0
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/025",
+    "address": "м. Нікополь, вул. Херсонська, буд. 547-а",
+    "location": {
+      "lat": 47.590448,
+      "lng": 34.290718
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/026",
+    "address": "м. Нікополь, вул.Патріотів України, №165",
+    "location": {
+      "lat": 47.575831,
+      "lng": 34.404797
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/027",
+    "address": "м. Нікополь, вул. Першотравнева, 2/1",
+    "location": {
+      "lat": 47.569168,
+      "lng": 34.393697
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/028",
+    "address": "м. Марганець, вул. Лермонтова, буд.2-а",
+    "location": {
+      "lat": 47.642648,
+      "lng": 34.649803
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/029",
+    "address": "смт. Томаківка, вул. Ярослава Мудрого, 39",
+    "location": {
+      "lat": 47.784561,
+      "lng": 34.736967
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/032",
+    "address": "м. Апостолове, вул. Елеваторна, буд. 4",
+    "location": {
+      "lat": 47.64505,
+      "lng": 33.703298
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/033",
+    "address": "с. Придніпровське, вул. Садова, буд. 2/1",
+    "location": {
+      "lat": 47.620808,
+      "lng": 34.441002
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/004",
+    "address": "м. Кривий Ріг, вул. Окружна, 127 а",
+    "location": {
+      "lat": 47.927569,
+      "lng": 33.315323
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/005",
+    "address": "м. Кривий Ріг, вул. Івана Сірка, 70 а",
+    "location": {
+      "lat": 48.131102,
+      "lng": 33.569722
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/006",
+    "address": "м. Кривий Ріг, вул. Електрозаводська, 41",
+    "location": {
+      "lat": 47.981756,
+      "lng": 33.517449
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/007",
+    "address": "м. Кривий Ріг, Дніпропетровське шосе, буд.23",
+    "location": {
+      "lat": 47.916268,
+      "lng": 33.428271
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/009",
+    "address": "м. Кривий Ріг, вул. 23 Лютого, 81 б",
+    "location": {
+      "lat": 48.065924,
+      "lng": 33.499437
+    },
+    "accuracy": 0
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/010",
+    "address": "м. Кривий Ріг, вул. Лермонтова, 30 а",
+    "location": {
+      "lat": 47.902651,
+      "lng": 33.360076
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/014",
+    "address": "м. Кривий Ріг, вул. Десантна, 1А АЗС № 14",
+    "location": {
+      "lat": 47.998306,
+      "lng": 33.465942
+    },
+    "accuracy": 0
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/015",
+    "address": "м. Кривий Ріг, вул. Каховська, АЗС №15, 36а",
+    "location": {
+      "lat": 47.875332,
+      "lng": 33.358132
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/016",
+    "address": "м. Кривой Ріг, вул. Бикова, 6",
+    "location": {
+      "lat": 47.929306,
+      "lng": 33.426056
+    },
+    "accuracy": 0
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/023",
+    "address": "м. Кривий Ріг, вул. Женевська, 17/2",
+    "location": {
+      "lat": 47.976307,
+      "lng": 33.441029
+    },
+    "accuracy": 0
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/030",
+    "address": "м. Кривий Ріг, Нікопольське шосе, буд. 5 б",
+    "location": {
+      "lat": 47.887062,
+      "lng": 33.463071
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/031",
+    "address": "м. Кривий Ріг, вул. 50 - річчя Жовтня, буд. 11 а",
+    "location": {
+      "lat": 47.677801,
+      "lng": 33.16047
+    },
+    "accuracy": 0
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/034",
+    "address": "м. Кривой Ріг, вул. Переяславська, 2 а",
+    "location": {
+      "lat": 47.834271,
+      "lng": 33.352211
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/035",
+    "address": "м. Кривий Ріг, вул. Леоніда Бородича, 9а",
+    "location": {
+      "lat": 47.906334,
+      "lng": 33.42675
+    },
+    "accuracy": 0
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/011",
+    "address": "смт Кіровське, вул. Леніна, буд. 559",
+    "location": {
+      "lat": 48.55611,
+      "lng": 34.909111
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/018",
+    "address": "м. Синельникове, вул. 95-го погранзагону",
+    "location": {
+      "lat": 48.339444,
+      "lng": 35.484444
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/037",
+    "address": "м. Синельникове, вул. 50 років Жовтня, буд. 106",
+    "location": {
+      "lat": 48.32111,
+      "lng": 35.495945
+    },
+    "accuracy": 0
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/048",
+    "address": "с. Павлівка, вул. Островського, буд. 1а",
+    "location": {
+      "lat": 48.229443,
+      "lng": 35.3475
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/049",
+    "address": "селище Хорошеве, а/д Харків-Сімферополь 971а км",
+    "location": {
+      "lat": 48.356724,
+      "lng": 35.369141
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/050",
+    "address": "с. Осокорівка, а/д Харків-Сімферополь 254+420 км",
+    "location": {
+      "lat": 48.129342,
+      "lng": 35.341933
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/051",
+    "address": "смт Покровське, вул. 50 років Жовтня, №76",
+    "location": {
+      "lat": 47.981944,
+      "lng": 36.215833
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/052",
+    "address": "смт Васильківка, вул. Партизанська, буд. 1б",
+    "location": {
+      "lat": 48.249058,
+      "lng": 36.000111
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/053",
+    "address": "смт Покровське, вул. Леніна №211 А",
+    "location": {
+      "lat": 47.991667,
+      "lng": 36.248889
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/041",
+    "address": "м. Кам'янське, бул. Героїв, 2-А",
+    "location": {
+      "lat": 48.604006,
+      "lng": 34.561275
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/042",
+    "address": "м. Кам'янське, вул. Михайла Грушевського, 74",
+    "location": {
+      "lat": 48.504467,
+      "lng": 34.579823
+    },
+    "accuracy": 0
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/044",
+    "address": "м. Дніпродзержинськ, пр. Аношкіна, 39 А",
+    "location": {
+      "lat": 48.508303,
+      "lng": 34.610051
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/057",
+    "address": "м. Кам'янське, вул. Дніпропетровська, 1 „Б",
+    "location": {
+      "lat": 48.475803,
+      "lng": 34.692802
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "003/058",
+    "address": "м. Камянське, Дніпровський район, вул. Тритузна, земельна ділянка 251А",
+    "location": {
+      "lat": 48.532249,
+      "lng": 34.542358
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/060",
+    "address": "м. Кам'янське, пр. Наддніпрянський, 29",
+    "location": {
+      "lat": 48.595765,
+      "lng": 34.54659
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/013",
+    "address": "с. Українка, вул. Дорожна, буд. 7",
+    "location": {
+      "lat": 48.494642,
+      "lng": 34.559325
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/001",
+    "address": "м. Вільногірськ, вул. Промислова, 16",
+    "location": {
+      "lat": 48.482908,
+      "lng": 34.020153
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/002",
+    "address": "м. Пятихатки, вул. Клименко, 8 а",
+    "location": {
+      "lat": 48.415653,
+      "lng": 33.720158
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/003",
+    "address": "м. Верхньодніпровськ, вул. Титова, буд. 37а",
+    "location": {
+      "lat": 48.643728,
+      "lng": 34.339422
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/038",
+    "address": "смт Царичанка, вул. Комсомольська, буд. 118 г",
+    "location": {
+      "lat": 48.942511,
+      "lng": 34.490269
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/039",
+    "address": "с. Світлогірське, вул. Виконкомівська, буд. 18 а",
+    "location": {
+      "lat": 48.345517,
+      "lng": 34.492647
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/040",
+    "address": "смт Петриківка, вул. Кутузова, 1 а",
+    "location": {
+      "lat": 48.711531,
+      "lng": 34.625017
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/043",
+    "address": "м. Пятихатки, вул. Першотравнева, буд. 161",
+    "location": {
+      "lat": 48.419744,
+      "lng": 33.680142
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/059",
+    "address": "с. Єлизаветівка, вул. Лівобережна, буд.1",
+    "location": {
+      "lat": 48.588593,
+      "lng": 34.569679
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/061",
+    "address": "смт Магдалинівка, вул. Радянська, буд. 1-В",
+    "location": {
+      "lat": 48.915801,
+      "lng": 34.925611
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/008",
+    "address": "с. Голубівка, вул. Леніна, 15 а",
+    "location": {
+      "lat": 48.883889,
+      "lng": 35.323056
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/045",
+    "address": "с. Богуслав, вул. Леніна, буд. №1",
+    "location": {
+      "lat": 48.475833,
+      "lng": 36.008889
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/046",
+    "address": "с. Новоселівське, вул. Степова, буд. №1 „А”",
+    "location": {
+      "lat": 48.540833,
+      "lng": 35.799444
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/047",
+    "address": "с. Словянка, вул. Залізнична, 1А",
+    "location": {
+      "lat": 48.391117,
+      "lng": 36.697849
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/062",
+    "address": "м. Новомосковськ, вул. Сучкова, буд. 41",
+    "location": {
+      "lat": 48.636111,
+      "lng": 35.246111
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/063",
+    "address": "м. Підгородне, вул. Смоленська, буд. 1а",
+    "location": {
+      "lat": 48.594898,
+      "lng": 35.163057
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/064",
+    "address": "м. Новомосковськ, вул. Гетьманська, 51",
+    "location": {
+      "lat": 48.642792,
+      "lng": 35.259943
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/065",
+    "address": "м. Павлоград, вул. Дніпровська, буд. 399 „а”",
+    "location": {
+      "lat": 48.502529,
+      "lng": 35.912529
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/066",
+    "address": "с. Карабинівка, вул. Дніпровська, буд. 2",
+    "location": {
+      "lat": 48.595749,
+      "lng": 35.52636
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/067",
+    "address": "м. Павлоград, вул. Дніпровська, буд. 73 „а”",
+    "location": {
+      "lat": 48.528611,
+      "lng": 35.850278
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "03/068",
+    "address": "с. Миколаївка, вул. Першотравнева, буд. 1 к",
+    "location": {
+      "lat": 48.358891,
+      "lng": 36.396667
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/011",
+    "address": "с. Камянське, вул. Мукачівська б/н",
+    "location": {
+      "lat": 48.284722,
+      "lng": 22.941944
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "05/001",
+    "address": "с. Березина, вул. Київська, 35",
+    "location": {
+      "lat": 50.288051,
+      "lng": 28.862897
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "05/003",
+    "address": "Сільська рада Оліївська, 355 км а/ш Бобруйськ-Житомир",
+    "location": {
+      "lat": 50.316528,
+      "lng": 28.6835
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "05/004",
+    "address": "Сільська рада Василівська 1, 62 км а/ш Київ-Чоп",
+    "location": {
+      "lat": 50.324722,
+      "lng": 28.379084
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "05/005",
+    "address": "м. Бердичів, вул. Шкирянніків, 2",
+    "location": {
+      "lat": 49.912164,
+      "lng": 28.589501
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "05/006",
+    "address": "м. Бердичів, вул. Елінг,8",
+    "location": {
+      "lat": 49.859392,
+      "lng": 28.615867
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "06/001",
+    "address": "Сільська рада Соломонівської, а/ш Київ-Чоп, права сторона по ходу 833км 280м.",
+    "location": {
+      "lat": 48.424167,
+      "lng": 22.171389
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/002",
+    "address": "Сільська рада Соломонівської, а/ш Київ-Чоп, ліва сторона по ходу 833км 560м.",
+    "location": {
+      "lat": 48.421083,
+      "lng": 22.17082
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/003",
+    "address": "с. Баранинці, вул. Гагаріна, буд. 94",
+    "location": {
+      "lat": 48.575833,
+      "lng": 22.334444
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "06/004",
+    "address": "с. Оноківці, вул. Головна 166",
+    "location": {
+      "lat": 48.659168,
+      "lng": 22.358889
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/005",
+    "address": "м. Берегово, вул. Хмельницького, буд. 83",
+    "location": {
+      "lat": 48.201111,
+      "lng": 22.635278
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "06/006",
+    "address": "м. Берегово, вул. Мукачівська, б/н",
+    "location": {
+      "lat": 48.236033,
+      "lng": 22.637828
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/007",
+    "address": "м. Виноградів, вул. Франка, буд. б/н",
+    "location": {
+      "lat": 48.157222,
+      "lng": 23.023889
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/008",
+    "address": "м. Виноградів, вул. Копанська, б/н",
+    "location": {
+      "lat": 48.167222,
+      "lng": 23.048333
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/009",
+    "address": "с. Невентленфолу, вул. Фогодо",
+    "location": {
+      "lat": 48.004444,
+      "lng": 23.001111
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/012",
+    "address": "с. Тишів, вул. Без назви",
+    "location": {
+      "lat": 48.806667,
+      "lng": 23.080556
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/013",
+    "address": "м. Тячів, вул. Червоноармійська, 123 а",
+    "location": {
+      "lat": 48.019444,
+      "lng": 23.553611
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/015",
+    "address": "с. Пасіка, урочище Лужани",
+    "location": {
+      "lat": 48.527222,
+      "lng": 22.881944
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/014",
+    "address": "с. Широке, вул. Шевченка, б/н",
+    "location": {
+      "lat": 48.211944,
+      "lng": 23.128333
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/016",
+    "address": "с. м. Березний, вул. Центральна, буд.158",
+    "location": {
+      "lat": 48.869167,
+      "lng": 22.448611
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/017",
+    "address": "Сільська рада Тисаашванська, а/ш Київ-Добронь-Чоп, 829 км 900м",
+    "location": {
+      "lat": 48.428611,
+      "lng": 22.242778
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/021",
+    "address": "с. Клячаново, вул. Мукачівська, буд.131 г",
+    "location": {
+      "lat": 48.444722,
+      "lng": 22.686389
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/019",
+    "address": "м. Ужгород, КПП Ужгород км 12+350",
+    "location": {
+      "lat": 48.647501,
+      "lng": 22.269167
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/020",
+    "address": "м. Ужгород, вул. Коритнянська, буд. 16",
+    "location": {
+      "lat": 48.594722,
+      "lng": 22.312501
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/022",
+    "address": "с. Дийда, вул. Астейська, буд. 3",
+    "location": {
+      "lat": 48.183889,
+      "lng": 22.613333
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/026",
+    "address": "с. Сюрте, вул. Ракоці (вул. Леніна), буд. 187",
+    "location": {
+      "lat": 48.517778,
+      "lng": 22.238333
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/023",
+    "address": "смт Вилок, вул. Горького, буд. б/н",
+    "location": {
+      "lat": 48.121666,
+      "lng": 22.824167
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/024",
+    "address": "смт Діброва, вул. Думбрава, 152",
+    "location": {
+      "lat": 47.971944,
+      "lng": 23.836944
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/025",
+    "address": "с. Невентленфолу, вул. Фогодо (вул. Леніна, вул. Оронь Янош), буд. б/н",
+    "location": {
+      "lat": 48.004444,
+      "lng": 23.002222
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/027",
+    "address": "с. Сюрте, вул. Ракоці (вул. Леніна), буд. 198",
+    "location": {
+      "lat": 48.517222,
+      "lng": 22.239167
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/028",
+    "address": "с. Велика Добронь, вул. Малодобронська (вул. Леніна), буд. 138",
+    "location": {
+      "lat": 48.428333,
+      "lng": 22.369167
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "06/029",
+    "address": "с. Розівка, вул. Свободи (вул. Леніна), буд. 46",
+    "location": {
+      "lat": 48.576667,
+      "lng": 22.272222
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/001",
+    "address": "смт Новомиколаївка, вул. Котовського, 19",
+    "location": {
+      "lat": 47.972847,
+      "lng": 35.909611
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/003",
+    "address": "м. Запоріжжя, вул. Південне шосе, буд. 58",
+    "location": {
+      "lat": 47.855578,
+      "lng": 35.145619
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/005",
+    "address": "м. Запоріжжя, вул. Скворцова, буд. 247-а",
+    "location": {
+      "lat": 47.893158,
+      "lng": 35.189894
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/006",
+    "address": "м. Запоріжжя, вул. Східна,14",
+    "location": {
+      "lat": 47.793601,
+      "lng": 35.230751
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/007",
+    "address": "с. Михайлівка, вул. Шкільна, буд. 1б",
+    "location": {
+      "lat": 47.957533,
+      "lng": 35.245972
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/008",
+    "address": "м. Запоріжжя, вул. Юності, буд.149",
+    "location": {
+      "lat": 47.807947,
+      "lng": 35.242894
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/011",
+    "address": "с. Михайлівка, вул. Першотравнева, буд. 29-б",
+    "location": {
+      "lat": 47.956336,
+      "lng": 35.245094
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/018",
+    "address": "м. Запоріжжя, вул. Іванова, буд. 103",
+    "location": {
+      "lat": 47.832801,
+      "lng": 35.211778
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/020",
+    "address": "с. Павлівське, вул. Степова, буд. 2-в",
+    "location": {
+      "lat": 47.938706,
+      "lng": 35.457508
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/022",
+    "address": "селище Сонячне, вул. Котляревського, буд. 1в",
+    "location": {
+      "lat": 47.890569,
+      "lng": 35.051739
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/023",
+    "address": "смт Кушугум, вул. Гоголя, буд. 2-ж",
+    "location": {
+      "lat": 47.733314,
+      "lng": 35.209861
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/029",
+    "address": "м. Запоріжжя, вул. Братська, буд. 80",
+    "location": {
+      "lat": 47.880961,
+      "lng": 35.034325
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/030",
+    "address": "м. Запоріжжя, вул. Макаренка, буд. 2 а",
+    "location": {
+      "lat": 47.870514,
+      "lng": 35.121633
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/117",
+    "address": "с. Біленьке, вул. Запорізька 8",
+    "location": {
+      "lat": 47.622836,
+      "lng": 35.036936
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/111",
+    "address": "м. Запоріжжя, вул. Будьонного, буд. 1, пр. Радянський, буд. 1 а",
+    "location": {
+      "lat": 47.815658,
+      "lng": 35.062536
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/112",
+    "address": "м. Запоріжжя, вул. Задніпровська, буд. 74",
+    "location": {
+      "lat": 47.826197,
+      "lng": 35.044475
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/118",
+    "address": "м. Запоріжжя, Оріховське шосе, 3 б",
+    "location": {
+      "lat": 47.797906,
+      "lng": 35.236575
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/123",
+    "address": "м. Запоріжжя, вул. Новокузнецкая, 1 а",
+    "location": {
+      "lat": 47.790475,
+      "lng": 35.181778
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/134",
+    "address": "м. Запоріжжя, Дніпропетрвське шосе, 3 в",
+    "location": {
+      "lat": 47.872075,
+      "lng": 35.037406
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/138",
+    "address": "м. Запоріжжя, пр. 40 річчя Перемоги, 6",
+    "location": {
+      "lat": 47.786692,
+      "lng": 35.174444
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/140",
+    "address": "м. Запоріжжя, вул. Перемоги, буд. 70-а",
+    "location": {
+      "lat": 47.833875,
+      "lng": 35.127089
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/144",
+    "address": "м. Запоріжжя, вул. Синенка Сергія , 8-А",
+    "location": {
+      "lat": 47.871306,
+      "lng": 35.052681
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/033",
+    "address": "с. Станиля, а/д Трускавець-Стебник км 2+230 (праворуч)",
+    "location": {
+      "lat": 49.283054,
+      "lng": 23.531111
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/143",
+    "address": "м. Запоріжжя, вул. Героїв Сталінграду, буд. 19",
+    "location": {
+      "lat": 47.823055,
+      "lng": 35.163193
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/145",
+    "address": "м. Запоріжжя, вул. Демократична, буд. 24",
+    "location": {
+      "lat": 47.883514,
+      "lng": 35.148401
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/146",
+    "address": "м. Запоріжжя, вул. Тюленіна Сергія, буд. 11",
+    "location": {
+      "lat": 47.852706,
+      "lng": 35.105578
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/147",
+    "address": "м. Запоріжжя, вул. Південне шосе, буд. 19",
+    "location": {
+      "lat": 47.858002,
+      "lng": 35.128971
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "08/001",
+    "address": "с. Ільці, присілок Флесівка, 8",
+    "location": {
+      "lat": 48.154044,
+      "lng": 24.767261
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "07/154",
+    "address": "м. Вільнянськ, вул. Леніна, буд. 7 а",
+    "location": {
+      "lat": 47.940666,
+      "lng": 35.405582
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "08/005",
+    "address": "с. Тулуків, вул. Головна, буд. 14",
+    "location": {
+      "lat": 48.4755444,
+      "lng": 25.3214025
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/001",
+    "address": "Сільська рада Богданівська, а/д Київ-Харків 115 км (праворуч)",
+    "location": {
+      "lat": 50.232639,
+      "lng": 31.958834
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "08/002",
+    "address": "с. Майдан, Калуське шосе, буд. 4",
+    "location": {
+      "lat": 48.995403,
+      "lng": 24.595086
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "08/003",
+    "address": "м. Тлумач, вул. Грушевського (Жовтнева), буд. 63",
+    "location": {
+      "lat": 48.877792,
+      "lng": 25.002172
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "08/004",
+    "address": "м. Івано-Франківськ, вул. О. Довженко (вул. Веселова), буд. 27",
+    "location": {
+      "lat": 48.904225,
+      "lng": 24.682311
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/020",
+    "address": "с. Блощинцi, вул. Бiлоцеркiвська, буд. 1 а",
+    "location": {
+      "lat": 49.780833,
+      "lng": 30.3200333
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "08/006",
+    "address": "м. Івано-Франківськ, вул. Тисменицька (вул. Радянська, вул. Незалежності), 313",
+    "location": {
+      "lat": 48.911442,
+      "lng": 24.770442
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "08/007",
+    "address": "м. Яремча, вул. Свободи, (вул. Леніна), буд. 232",
+    "location": {
+      "lat": 48.454857,
+      "lng": 24.556694
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "08/008",
+    "address": "м. Івано-Франківськ с. Микитинці, вул. Юності, 49",
+    "location": {
+      "lat": 48.899456,
+      "lng": 24.757792
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "08/009",
+    "address": "м. Калуш, вул. Івано-Франківська (вул. Терешкової, вул. Бандери), буд. 128",
+    "location": {
+      "lat": 49.033367,
+      "lng": 24.429892
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "08/010",
+    "address": "м. Івано-Франківськ, вул. Коновальця Євгена (вул. Дадугіна), буд. 320",
+    "location": {
+      "lat": 48.876945,
+      "lng": 24.705925
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "08/011",
+    "address": "м. Калуш, вул. Євшана (вул. Сапункова), буд.8 а",
+    "location": {
+      "lat": 49.031228,
+      "lng": 24.366867
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "08/012",
+    "address": "м. Калуш, вул. Долинська (Карла Маркса), 71",
+    "location": {
+      "lat": 49.010375,
+      "lng": 24.334644
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/030",
+    "address": "Сільська рада Рогозівська, а/ш Бориспіль-Дніпропетровськ-Запоріжжя 10км. +700м, пр.",
+    "location": {
+      "lat": 50.256832,
+      "lng": 31.040722
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/002",
+    "address": "м. Яготин, вул. Київська, буд. 1 а",
+    "location": {
+      "lat": 50.240326,
+      "lng": 31.777135
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "09/009",
+    "address": "м. Київ, пр. Академіка Палладіна, буд. 46 а",
+    "location": {
+      "lat": 50.4793146,
+      "lng": 30.360802
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "09/010",
+    "address": "м. Київ, Столичне шосе, 104/2",
+    "location": {
+      "lat": 50.340832,
+      "lng": 30.553057
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "09/011",
+    "address": "м. Київ, пр. Лобановського, 115",
+    "location": {
+      "lat": 50.4079839,
+      "lng": 30.5049014
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "09/013",
+    "address": "м. Київ, вул. Саперно-Слобідська, 6/3",
+    "location": {
+      "lat": 50.4037433,
+      "lng": 30.5326792
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "09/014",
+    "address": "м. Бориспіль, вул. Київський шлях, 212",
+    "location": {
+      "lat": 50.334242,
+      "lng": 30.986352
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/016",
+    "address": "смт Глеваха, вул. Вокзальна, буд. 13 а",
+    "location": {
+      "lat": 50.260958,
+      "lng": 30.317521
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "09/017",
+    "address": "вулиця Князя Святослава, 1А, Старі Петрівці, Київська обл., 07354",
+    "location": {
+      "lat": 50.639278,
+      "lng": 30.427584
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/018",
+    "address": "м. Кагарлик, вул. Маркса Карла, буд. 82",
+    "location": {
+      "lat": 49.881403,
+      "lng": 30.821638
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/031",
+    "address": "с. Бзів, вул. Харківське шосе, 56",
+    "location": {
+      "lat": 50.305001,
+      "lng": 31.1864223
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/034",
+    "address": "смт Ставище, вул. Радянська, буд. 3 д",
+    "location": {
+      "lat": 49.389498,
+      "lng": 30.166948
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "10/002",
+    "address": "м. Знам'янка смт Знам'янка Друга, вул. Степова, буд. 1",
+    "location": {
+      "lat": 48.701161,
+      "lng": 32.5865613
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/032",
+    "address": "м. Обухів, вул. Промислова, буд. 2-Б",
+    "location": {
+      "lat": 50.135961,
+      "lng": 30.682038
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/033",
+    "address": "смт Велика Димерка, вул. Леніна, 1",
+    "location": {
+      "lat": 50.593349,
+      "lng": 30.87004
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "10/006",
+    "address": "с. Деріївка, вул. Єруха, 1 б",
+    "location": {
+      "lat": 48.888474,
+      "lng": 33.704918
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "09/035",
+    "address": "м. Тараща, вул. Білоцерківська, буд. 63 -В",
+    "location": {
+      "lat": 49.573055,
+      "lng": 30.495832
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "10/011",
+    "address": "м. Кіровоград, Олександрійське шосе, буд. 3",
+    "location": {
+      "lat": 48.530109,
+      "lng": 32.292442
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "10/007",
+    "address": "м. Олександрія, вул. Лугова, 90",
+    "location": {
+      "lat": 48.644242,
+      "lng": 33.044484
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "10/009",
+    "address": "м. Олександрія, вул. Міліцейська, буд.5",
+    "location": {
+      "lat": 48.658333,
+      "lng": 33.111973
+    },
+    "accuracy": 0
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "10/010",
+    "address": "смт Петрове, вул. Степова, 1",
+    "location": {
+      "lat": 48.349543,
+      "lng": 33.263338
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/008",
+    "address": "Сільська рада Родатицька, а/ш Львів-Шегині, км 40+810 (з права)",
+    "location": {
+      "lat": 49.791695,
+      "lng": 23.478806
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "10/012",
+    "address": "м. Кіровоград, вул. Героїв Сталінграда, 38 в",
+    "location": {
+      "lat": 48.487684,
+      "lng": 32.194526
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "10/013",
+    "address": "м. Кіровоград, вул. Московська, 179",
+    "location": {
+      "lat": 48.577187,
+      "lng": 32.242667
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "10/014",
+    "address": "м. Кропивницький, пр. Промисловий, 22",
+    "location": {
+      "lat": 48.508611,
+      "lng": 32.195001
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "10/015",
+    "address": "м. Кіровоград, вул. Генерала Родимцева, 108 а",
+    "location": {
+      "lat": 48.498056,
+      "lng": 32.318889
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/012",
+    "address": "с. Великий Дорошів, а/ш Львів-Рава-Руська км 12+220 (ліворуч)",
+    "location": {
+      "lat": 49.940277,
+      "lng": 24.051971
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "13/001",
+    "address": "м. Львів, вул. Луганська, 2а",
+    "location": {
+      "lat": 49.807593,
+      "lng": 24.060471
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "13/002",
+    "address": "м. Львів, вул. Хуторівка, 59",
+    "location": {
+      "lat": 49.801037,
+      "lng": 24.041257
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/003",
+    "address": "м. Радехів, вул. Галицька, 4",
+    "location": {
+      "lat": 50.283117,
+      "lng": 24.626572
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/004",
+    "address": "Сільська рада Гамаліївська, а/ш Київ-Чоп 0+500 м",
+    "location": {
+      "lat": 49.8951704,
+      "lng": 24.132707
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/005",
+    "address": "с. Сокільники, вул. Стрийська, 18",
+    "location": {
+      "lat": 49.775215,
+      "lng": 24.012958
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/006",
+    "address": "м. Львів, вул. Гната Хоткевича,11",
+    "location": {
+      "lat": 49.799771,
+      "lng": 24.039724
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/007",
+    "address": "м. Львів, вул. Княгині Ольги, 118",
+    "location": {
+      "lat": 49.804475,
+      "lng": 23.997542
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "13/013",
+    "address": "с. Давидів, а/ш Львів-Нові Стрілища-Рогатин км 11+200",
+    "location": {
+      "lat": 49.767082,
+      "lng": 24.11039
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/009",
+    "address": "м. Львів, вул. Кульпарківська, 101",
+    "location": {
+      "lat": 49.814521,
+      "lng": 23.986428
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/010",
+    "address": "с. Гаї-Смоленські, а/ш Київ-Чоп 437+250 км",
+    "location": {
+      "lat": 50.048083,
+      "lng": 25.143779
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/011",
+    "address": "м. Перемишляни, вул. Галицька, 106",
+    "location": {
+      "lat": 49.658555,
+      "lng": 24.560171
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/020",
+    "address": "смт Нові Стрілища, районна а/д місцевого значення Нові Стрілища-Ходорів км 00-175 (праворуч)",
+    "location": {
+      "lat": 49.50964,
+      "lng": 24.400972
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/022",
+    "address": "с. Перемивки, магістральна а/д державного значення Львів-Рава-Руська км 21+160 (праворуч)",
+    "location": {
+      "lat": 50.010471,
+      "lng": 24.044111
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/014",
+    "address": "с. Малехів, а/ш Київ-Чоп, км 5+320 (ліворуч)",
+    "location": {
+      "lat": 49.880559,
+      "lng": 24.071581
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/015",
+    "address": "м. Львів, вул. В. Великого, 8",
+    "location": {
+      "lat": 49.809315,
+      "lng": 24.012259
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/016",
+    "address": "м. Комарно, вул. Городоцька, буд. 75 а",
+    "location": {
+      "lat": 49.635435,
+      "lng": 23.685621
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/017",
+    "address": "м. Львів, вул. Торф'яна, 8",
+    "location": {
+      "lat": 49.862438,
+      "lng": 24.020276
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/018",
+    "address": "м. Львів, вул. Пластова, 7 а",
+    "location": {
+      "lat": 49.860466,
+      "lng": 24.065359
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/019",
+    "address": "м. Львів, вул. Богданівська, 100",
+    "location": {
+      "lat": 49.853356,
+      "lng": 24.077881
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/026",
+    "address": "м. Буськ, а/ш державного значення Рівне-Берестечко-Буськ-Перемишляни, км 114+280 (ліворуч)",
+    "location": {
+      "lat": 49.9588532,
+      "lng": 24.5943706
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/021",
+    "address": "м. Львів, вул. В. Єрошенка, 17 а",
+    "location": {
+      "lat": 49.852359,
+      "lng": 24.002783
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/029",
+    "address": "Сільська рада Краковецька, магістральна а/д Умань-Краковець км 0+900 (праворуч),",
+    "location": {
+      "lat": 49.95639,
+      "lng": 23.203861
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/023",
+    "address": "м. Львів, вул. Стрийська, 200",
+    "location": {
+      "lat": 49.785504,
+      "lng": 24.015711
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/024",
+    "address": "м. Львів, вул. Рудненська, буд. 14",
+    "location": {
+      "lat": 49.837034,
+      "lng": 23.965697
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "13/025",
+    "address": "м. Львів, вул. Т. Шевченка, 300",
+    "location": {
+      "lat": 49.872971,
+      "lng": 23.935307
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/027",
+    "address": "м. Буськ, магістральна а/д державного значення Київ-Чоп, км 482+300 (праворуч)",
+    "location": {
+      "lat": 49.980724,
+      "lng": 24.611311
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/028",
+    "address": "м. Яворів, вул. Велике Передмістя, 145 а",
+    "location": {
+      "lat": 49.931662,
+      "lng": 23.359472
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/030",
+    "address": "м. Новояворівськ, вул. Львівська, 2",
+    "location": {
+      "lat": 49.925337,
+      "lng": 23.566634
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/031",
+    "address": "смт Івано-Франкове, вул. Яворівська, 38",
+    "location": {
+      "lat": 49.920896,
+      "lng": 23.715849
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/036",
+    "address": "с. Підберізці, а/д Львів-Кіровоград-Знамянка",
+    "location": {
+      "lat": 49.813716,
+      "lng": 24.207981
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/037",
+    "address": "м. Рудки, вул. Чорновола, буд. 36-а",
+    "location": {
+      "lat": 49.659887,
+      "lng": 23.495668
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/034",
+    "address": "с. Холодновідка, вул. Городоцька, 1",
+    "location": {
+      "lat": 49.820595,
+      "lng": 23.914797
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/035",
+    "address": "м. Городок, вул. Перемишльська, буд. 85",
+    "location": {
+      "lat": 49.781247,
+      "lng": 23.631303
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/039",
+    "address": "Сільська рада Лапаївська, магістральна а/д державного значення Львів-Шегині км 9+600 (ліворуч)",
+    "location": {
+      "lat": 49.817844,
+      "lng": 23.902217
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/040",
+    "address": "Сільська рада Маклашівська, магістральна а/д державного значення Львів-Кіровоград-Знамянка",
+    "location": {
+      "lat": 49.816791,
+      "lng": 24.181152
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/038",
+    "address": "с. Пасіки-Зубрицькі, магістральна а/д державного значення Київ-Чоп км 541+800 (праворуч)",
+    "location": {
+      "lat": 49.775711,
+      "lng": 24.096842
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/044",
+    "address": "с. Коростів, вул. І.Франка, буд. 21в.",
+    "location": {
+      "lat": 49.006608,
+      "lng": 23.445526
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/046",
+    "address": "с. Терло, вул. Бічна, буд. 37-б",
+    "location": {
+      "lat": 49.479301,
+      "lng": 22.743409
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/041",
+    "address": "Сільська рада Сороко-Львівська, а/д Київ-Чоп км 00+500 (ліворуч)",
+    "location": {
+      "lat": 49.8947054,
+      "lng": 24.1335626
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/042",
+    "address": "м. Львів, вул. Дж. Вашингтона, 5б",
+    "location": {
+      "lat": 49.816356,
+      "lng": 24.067163
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/043",
+    "address": "м. Львів, вул. Кульпарківська, 224/1",
+    "location": {
+      "lat": 49.802444,
+      "lng": 23.979906
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/052",
+    "address": "Сільська рада Річківська, а/д державного значення Львів-Рава-Руська, км 64+205 (ліворуч)",
+    "location": {
+      "lat": 50.24725,
+      "lng": 23.613916
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/045",
+    "address": "м. Львів, вул. Пасічна, буд. 123",
+    "location": {
+      "lat": 49.810695,
+      "lng": 24.080163
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/051",
+    "address": "Сільська рада Річківська, а/д державного значення Львів-Рава-Руська, км 64+080 (праворуч)",
+    "location": {
+      "lat": 50.246666,
+      "lng": 23.616167
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/047",
+    "address": "м. Жовква, вул. Львівська, буд. 108",
+    "location": {
+      "lat": 50.051967,
+      "lng": 23.989652
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/048",
+    "address": "смт Меденичі, вул. Дрогобицька, буд. 28",
+    "location": {
+      "lat": 49.426489,
+      "lng": 23.739667
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/049",
+    "address": "Сільська рада Підгорецька, а/д Киів-Чоп 455+780 км.",
+    "location": {
+      "lat": 49.966576,
+      "lng": 24.963176
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/050",
+    "address": "м. Червоноград, вул. Хмельницького Б., буд. 81",
+    "location": {
+      "lat": 50.407189,
+      "lng": 24.234885
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/059",
+    "address": "м. Золочів, магістральна а/д державного значення Львів-Кіровоград-Знамянка км 65-200 (праворуч)",
+    "location": {
+      "lat": 49.803851,
+      "lng": 24.8663623
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/060",
+    "address": "с. Волиця, вул. Дружби, буд. 225",
+    "location": {
+      "lat": 49.800888,
+      "lng": 23.043583
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/053",
+    "address": "м. Львів, вул. Липинського В., буд. 27а",
+    "location": {
+      "lat": 49.863967,
+      "lng": 24.033374
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/054",
+    "address": "Сільська рада Дроговизька, магістральна а/д державного значення Київ-Чоп км 576+500 (ліворуч)",
+    "location": {
+      "lat": 49.523627,
+      "lng": 23.952545
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/055",
+    "address": "с. Дуліби, вул. Шевченка, буд. 418",
+    "location": {
+      "lat": 49.221551,
+      "lng": 23.800382
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "13/056",
+    "address": "Сільська рада Добрянська, а/д Київ-Чоп км 604+200 (праворуч)",
+    "location": {
+      "lat": 49.282248,
+      "lng": 23.876318
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/057",
+    "address": "с. Довге, вул. Хмельницького Б., буд. 1а",
+    "location": {
+      "lat": 49.184434,
+      "lng": 23.854196
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/058",
+    "address": "м. Червоноград, вул. Хмельницького Б., буд. 51",
+    "location": {
+      "lat": 50.393692,
+      "lng": 24.229646
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "13/063",
+    "address": "Сільська рада Краковецька, магістральна а/д державного значення Львів-Краковець км 68+700 (ліворуч)",
+    "location": {
+      "lat": 49.954194,
+      "lng": 23.138331
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "14/002",
+    "address": "с. Костянтинівка, вул. Миколаївська, буд.6 (правая)",
+    "location": {
+      "lat": 47.087408,
+      "lng": 31.931806
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "13/061",
+    "address": "м. Львів, вул. Зелена, 322",
+    "location": {
+      "lat": 49.783871,
+      "lng": 24.077928
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "13/062",
+    "address": "м. Самбір, вул. Шевченка, буд. 59 „Б”",
+    "location": {
+      "lat": 49.510161,
+      "lng": 23.176801
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/009",
+    "address": "с. Кучурган, вул. Одеська, б/н",
+    "location": {
+      "lat": 46.45282,
+      "lng": 30.705799
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "14/001",
+    "address": "м. Миколаїв, пр. Леніна, буд. 99",
+    "location": {
+      "lat": 46.965693,
+      "lng": 31.999961
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/014",
+    "address": "м. Одеса, вул. М. Грушевського (вул. Ачкапових братів), 37",
+    "location": {
+      "lat": 46.481083,
+      "lng": 30.686867
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "14/003",
+    "address": "с. Костянтинівка, вул. Миколаївська, буд. 7 (ліворуч)",
+    "location": {
+      "lat": 47.089569,
+      "lng": 31.93145
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "14/004",
+    "address": "м. Миколаїв, пр. Богоявленський, 55/6",
+    "location": {
+      "lat": 46.929089,
+      "lng": 32.04351
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "14/005",
+    "address": "м. Миколаїв, вул. Погранична, 29-А",
+    "location": {
+      "lat": 46.959311,
+      "lng": 31.992011
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "14/006",
+    "address": "с. Дорошівка, вул. Леніна, буд. 121",
+    "location": {
+      "lat": 47.471662,
+      "lng": 31.463487
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "14/008",
+    "address": "м. Вознесенськ, вул. Київська, 273-А",
+    "location": {
+      "lat": 47.596951,
+      "lng": 31.31694
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "14/009",
+    "address": "м. Баштанка, вул. Полтавська, 65",
+    "location": {
+      "lat": 47.420749,
+      "lng": 32.437241
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/001",
+    "address": "м. Одеса, вул. Гайдара, буд. 15",
+    "location": {
+      "lat": 46.4340352,
+      "lng": 30.7079257
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/002",
+    "address": "м. Одеса, вул. Спартаківська, буд. 7",
+    "location": {
+      "lat": 46.45282,
+      "lng": 30.705799
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/003",
+    "address": "м. Одеса, вул. Балківська (вул. Фрунзе), №5 А",
+    "location": {
+      "lat": 46.493001,
+      "lng": 30.713751
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/005",
+    "address": "селище Овідіополь, вул. Дзержинського, буд. №9 б",
+    "location": {
+      "lat": 46.249867,
+      "lng": 30.452251
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/006",
+    "address": "м. Одеса, вул. Комарова Космонавта, 12/1",
+    "location": {
+      "lat": 46.420601,
+      "lng": 30.716167
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/007",
+    "address": "м. Одеса, вул. Академіка Корольова, 1 б",
+    "location": {
+      "lat": 46.4166075,
+      "lng": 30.7231917
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/008",
+    "address": "м. Одеса, вул. Центральний Аеропорт, № 23",
+    "location": {
+      "lat": 46.445001,
+      "lng": 30.676133
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/017",
+    "address": "м. Татарбунари, Автозаправна станція, дорога Одеса-Рені 138-й км.",
+    "location": {
+      "lat": 45.849933,
+      "lng": 29.655001
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/025",
+    "address": "с. Корсунці, вул. Одеська, буд.1-б",
+    "location": {
+      "lat": 46.585583,
+      "lng": 30.771084
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/028",
+    "address": "Сільська рада Сичавська, 52 км а/ш Одеса-Миколаїв, буд. 1",
+    "location": {
+      "lat": 46.652584,
+      "lng": 31.139471
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/013",
+    "address": "м. Одеса, вул. Артилерійська, 6",
+    "location": {
+      "lat": 46.447101,
+      "lng": 30.733183
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/019",
+    "address": "с. Липове, вул. Радянська,33",
+    "location": {
+      "lat": 49.479988,
+      "lng": 32.730022
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/015",
+    "address": "м. Одеса, Тираспольське шосе, буд. 22-а",
+    "location": {
+      "lat": 46.484333,
+      "lng": 30.622967
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/016",
+    "address": "м. Одеса, вул. Мечникова, № 124",
+    "location": {
+      "lat": 46.464633,
+      "lng": 30.727117
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/049",
+    "address": "смт Комишня, вул. Польова, буд. 1",
+    "location": {
+      "lat": 50.154019,
+      "lng": 33.639106
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/018",
+    "address": "м. Одеса, вул. Фонтанська дорога, 4 а",
+    "location": {
+      "lat": 46.444867,
+      "lng": 30.741517
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/019",
+    "address": "м. Одеса, вул. Чорноморського козацтва (вул. Московська), 80",
+    "location": {
+      "lat": 46.526859,
+      "lng": 30.730249
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/020",
+    "address": "м. Одеса, вул. Балковська (Фрунзе), 211",
+    "location": {
+      "lat": 46.456851,
+      "lng": 30.706717
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/021",
+    "address": "м. Одеса, Овідіопольська дорога, буд. 3/1",
+    "location": {
+      "lat": 46.450833,
+      "lng": 30.660301
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/022",
+    "address": "Сільська рада Фонтанська, Старокиївське шосе, 21км, буд.5",
+    "location": {
+      "lat": 46.609733,
+      "lng": 30.821467
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/023",
+    "address": "м. Татарбунари, вул. Степова, буд.4",
+    "location": {
+      "lat": 45.826201,
+      "lng": 29.609867
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/054",
+    "address": "с. Лобачі, вул. Київського Шоссе, буд. 15",
+    "location": {
+      "lat": 49.645597,
+      "lng": 33.981067
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/026",
+    "address": "м. Рені, вул. Болградська, буд. 121 А",
+    "location": {
+      "lat": 45.468834,
+      "lng": 28.294333
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/027",
+    "address": "м. Одеса, вул. Стуса Василя (вул. Володарського) №2 А",
+    "location": {
+      "lat": 46.46406,
+      "lng": 30.68875
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/030",
+    "address": "с. Салгани, вул. Шабська, 20-А",
+    "location": {
+      "lat": 46.153831,
+      "lng": 30.341333
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/031",
+    "address": "с. Бритівка, вул. Леніна, 2-А",
+    "location": {
+      "lat": 46.177667,
+      "lng": 30.293967
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/032",
+    "address": "с. Крижанівка, вул. Миколаївська, буд. 32",
+    "location": {
+      "lat": 46.564233,
+      "lng": 30.809167
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/033",
+    "address": "м. Одеса, вул. Стуса Василя (вул. Володарського) №3",
+    "location": {
+      "lat": 46.464249,
+      "lng": 30.68811
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/001",
+    "address": "м. Кременчук, вул. Київська, буд. 67",
+    "location": {
+      "lat": 49.101339,
+      "lng": 33.415947
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/002",
+    "address": "м. Кременчук, вул. Велика набережна, 2-А",
+    "location": {
+      "lat": 49.060069,
+      "lng": 33.424455
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/005",
+    "address": "м. Кременчук, вул. Котлова, буд. 58-А",
+    "location": {
+      "lat": 49.029598,
+      "lng": 33.422801
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/007",
+    "address": "м. Горішні Плавні, вул. Дніпровська, 11",
+    "location": {
+      "lat": 49.027723,
+      "lng": 33.627605
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/011",
+    "address": "Сільська рада Нерубайська, а/ш Одеса-Київ, 17 км.",
+    "location": {
+      "lat": 46.565133,
+      "lng": 30.580367
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/028",
+    "address": "с. Вишняки, вул. Хмари І., буд.101 а",
+    "location": {
+      "lat": 49.752863,
+      "lng": 33.344327
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/042",
+    "address": "с. Підгірне, вул. Ломоносова, 127",
+    "location": {
+      "lat": 48.984551,
+      "lng": 33.377801
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/044",
+    "address": "смт Шишаки, пров.Вершина, буд. 16",
+    "location": {
+      "lat": 49.873816,
+      "lng": 34.026777
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/047",
+    "address": "с. Піщане, вул. Київська, 267-А",
+    "location": {
+      "lat": 49.146205,
+      "lng": 33.369234
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/048",
+    "address": "с. Кияшки, вул. Полтавська, буд. 1-В",
+    "location": {
+      "lat": 49.125915,
+      "lng": 33.626026
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "15/012",
+    "address": "Сільська рада Великодальницька, а/ш Одеса-Ізмаїл, 12 км",
+    "location": {
+      "lat": 46.418001,
+      "lng": 30.596233
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/051",
+    "address": "с. Млини, вул. Роменська, 5",
+    "location": {
+      "lat": 50.384272,
+      "lng": 33.307682
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/062",
+    "address": "с. Михайлики, вул. Леніна, буд. 54",
+    "location": {
+      "lat": 49.967695,
+      "lng": 34.157009
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/060",
+    "address": "м. Кремінчук, вул. Свіштовська, №3",
+    "location": {
+      "lat": 49.152903,
+      "lng": 33.432641
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/004",
+    "address": "Сільська рада Новоукраїнська, а/д Рівне-Сарни 17 км",
+    "location": {
+      "lat": 50.725683,
+      "lng": 26.373123
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/065",
+    "address": "м. Лубни, вул. Драгоманова, буд. 30а",
+    "location": {
+      "lat": 49.997206,
+      "lng": 32.994717
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/066",
+    "address": "м. Полтава, вул. Бірюзова Маршала, 2-а",
+    "location": {
+      "lat": 49.600081,
+      "lng": 34.528795
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/067",
+    "address": "м. Полтава, вул. Сакко, 200",
+    "location": {
+      "lat": 49.609253,
+      "lng": 34.617519
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/068",
+    "address": "смт Чутове, вул. Жовтнева, буд. 116в",
+    "location": {
+      "lat": 49.720435,
+      "lng": 35.166614
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/069",
+    "address": "м. Пирятин, вул. Сумська, буд. 2а",
+    "location": {
+      "lat": 50.218131,
+      "lng": 32.523195
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/070",
+    "address": "м. Кременчук, вул. Ярмаркова, буд. 32",
+    "location": {
+      "lat": 49.066823,
+      "lng": 33.439422
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "16/071",
+    "address": "м. Гадяч, вул. Лохвицька, буд 27а",
+    "location": {
+      "lat": 50.378351,
+      "lng": 33.969389
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "17/001",
+    "address": "м. Рівне, вул. Млинівська, буд. 29 в",
+    "location": {
+      "lat": 50.644055,
+      "lng": 26.204431
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/002",
+    "address": "смт Гоща, вул. Рівненська, (вул. Калініна), буд. 80",
+    "location": {
+      "lat": 50.615564,
+      "lng": 26.654519
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/003",
+    "address": "с. Користь, вул. Київська, буд. 52",
+    "location": {
+      "lat": 50.599733,
+      "lng": 26.956399
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/006",
+    "address": "Сільська рада Масевицька, а/д Київ-Ковель 256 км",
+    "location": {
+      "lat": 51.223497,
+      "lng": 27.226761
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/005",
+    "address": "Сільська рада Малолюбашанська, а/д Городище-Сарни-Староконстянтинов 138км+450м",
+    "location": {
+      "lat": 50.861287,
+      "lng": 26.480127
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/008",
+    "address": "с. Обарів, вул. Ринкова, буд. 1",
+    "location": {
+      "lat": 50.639991,
+      "lng": 26.191712
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/007",
+    "address": "с. Велика Омеляна, вул. Дубнівська, буд. 2 б",
+    "location": {
+      "lat": 50.594614,
+      "lng": 26.160073
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/014",
+    "address": "с. Ситне, вул. Київська, буд. 22",
+    "location": {
+      "lat": 50.194,
+      "lng": 25.415943
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/009",
+    "address": "м. Рівне, вул. Князя Володимира (вул. Москаленка), буд. 108 а",
+    "location": {
+      "lat": 50.635293,
+      "lng": 26.244758
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/010",
+    "address": "Сільська рада Великоомелянська, а/д Київ-Чоп 333км",
+    "location": {
+      "lat": 50.568077,
+      "lng": 26.238184
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/011",
+    "address": "смт Клевань, вул. Б. Хмельницького, буд. 89 а",
+    "location": {
+      "lat": 50.740241,
+      "lng": 26.006248
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "17/012",
+    "address": "м. Дубно, вул. Михайла Грушевського, буд. 119 б",
+    "location": {
+      "lat": 50.392104,
+      "lng": 25.756609
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/013",
+    "address": "м. Березне, вул. Андріївська, (вул. Леніна), буд. 75",
+    "location": {
+      "lat": 50.997363,
+      "lng": 26.731201
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/016",
+    "address": "м. Костопіль, вул. Миру, буд. 2",
+    "location": {
+      "lat": 50.869258,
+      "lng": 26.454904
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/015",
+    "address": "м. Здолбунів, вул. Базарна, буд. 3",
+    "location": {
+      "lat": 50.525411,
+      "lng": 26.255369
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/017",
+    "address": "смт Млинів, вул. Поліщука, буд. 14 а",
+    "location": {
+      "lat": 50.511501,
+      "lng": 25.614529
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/019",
+    "address": "с. Полиці, вул. Ковельська, буд. 3",
+    "location": {
+      "lat": 51.254167,
+      "lng": 26.047672
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/018",
+    "address": "с. Бармаки, вул. Польова, буд. 3",
+    "location": {
+      "lat": 50.640602,
+      "lng": 26.289501
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/003",
+    "address": "с. Підгороднє, а/ш Тернопіль-Стрий 2 км",
+    "location": {
+      "lat": 49.545444,
+      "lng": 25.540056
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "17/020",
+    "address": "м. Рівне, вул. Черняка, буд. 17",
+    "location": {
+      "lat": 50.633686,
+      "lng": 26.268402
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "17/022",
+    "address": "м. Рівне, вул. Чернишова, буд. 11",
+    "location": {
+      "lat": 50.616115,
+      "lng": 26.224513
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/024",
+    "address": "с. Орлівка, вул. Варшавська, буд. 1",
+    "location": {
+      "lat": 51.306029,
+      "lng": 26.589854
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/026",
+    "address": "м. Дубровиця, вул. Воробинська (вул. Комуністична), буд. 185 б",
+    "location": {
+      "lat": 51.589056,
+      "lng": 26.570177
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/028",
+    "address": "с. Крупець, вул. Довга, буд. 2а",
+    "location": {
+      "lat": 50.158329,
+      "lng": 25.3132723
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/029",
+    "address": "смт Зарічне, вул. Аерофлотська, буд. 6",
+    "location": {
+      "lat": 51.814881,
+      "lng": 26.113137
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/030",
+    "address": "м. Сарни, вул. Варшавська, буд. 26",
+    "location": {
+      "lat": 51.312052,
+      "lng": 26.607041
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/031",
+    "address": "м. Дубно, вул. Залізнична (вул. Гречихіна), буд. 144",
+    "location": {
+      "lat": 50.385165,
+      "lng": 25.737926
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/032",
+    "address": "м. Корець, вул. Київська (вул. Леніна), буд.150а",
+    "location": {
+      "lat": 50.617943,
+      "lng": 27.140694
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "17/033",
+    "address": "м. Вараш (Кузнецовськ), вул. Правика, буд. 2",
+    "location": {
+      "lat": 51.335278,
+      "lng": 25.854168
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "19/001",
+    "address": "м. Тернопіль, вул. Текстильна, буд. 23",
+    "location": {
+      "lat": 49.5756026,
+      "lng": 25.6229679
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "19/002",
+    "address": "м. Тернопіль, вул. с. Будного, 13",
+    "location": {
+      "lat": 49.540683,
+      "lng": 25.566033
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/008",
+    "address": "с. Байківці, вул. Шумська, 32",
+    "location": {
+      "lat": 49.568333,
+      "lng": 25.652695
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/004",
+    "address": "с. Мишковиці, вул. О. Кобилянської, АЗС № 36",
+    "location": {
+      "lat": 49.457695,
+      "lng": 25.612778
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/005",
+    "address": "м. Тернопіль, просп. Злуки, 6",
+    "location": {
+      "lat": 49.560183,
+      "lng": 25.620051
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/006",
+    "address": "м. Тернопіль, вул. Т. Протасевича, буд. 1",
+    "location": {
+      "lat": 49.542168,
+      "lng": 25.633278
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/007",
+    "address": "м. Тернопіль, вул. Микулинецька, буд. 97 а",
+    "location": {
+      "lat": 49.515333,
+      "lng": 25.607083
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/011",
+    "address": "м. Борщів, вул. Кондри (вул. Жовтнева), буд. 3 а",
+    "location": {
+      "lat": 48.807552,
+      "lng": 26.028271
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "19/009",
+    "address": "м. Тернопіль, вул. 15 квітня, буд. 1 в",
+    "location": {
+      "lat": 49.550751,
+      "lng": 25.635517
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/010",
+    "address": "с. Підзамочок, вул. Тернопільська, буд. 86",
+    "location": {
+      "lat": 49.069633,
+      "lng": 25.401183
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/013",
+    "address": "с. Млинівці, а/д Умань-Львів-Краковець 437 км, біля м. Зборова,",
+    "location": {
+      "lat": 49.679001,
+      "lng": 25.122783
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/012",
+    "address": "м. Бережани, вул. Привокзальна, буд. 18 а",
+    "location": {
+      "lat": 49.441307,
+      "lng": 24.950056
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/014",
+    "address": "смт Козова, вул. Грушевського (вул. Леніна), буд. 1 „а”",
+    "location": {
+      "lat": 49.447783,
+      "lng": 25.178201
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/015",
+    "address": "м. Чортків, вул. Копчинецька (вул. Визволітелів), буд. 126 а",
+    "location": {
+      "lat": 49.010751,
+      "lng": 25.828683
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/005",
+    "address": "м. Харків, пр. П'ятдесятиріччя СРСР, буд. 2 г",
+    "location": {
+      "lat": 49.9396061,
+      "lng": 36.2965792
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/016",
+    "address": "м. Збараж, вул. Чорновола, 100",
+    "location": {
+      "lat": 49.649251,
+      "lng": 25.770517
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/017",
+    "address": "м. Бучач, вул. Галицька, 192 а",
+    "location": {
+      "lat": 49.070983,
+      "lng": 25.341083
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/018",
+    "address": "м. Чортків, вул. Незалежності, буд. 131",
+    "location": {
+      "lat": 49.014683,
+      "lng": 25.778317
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "19/021",
+    "address": "смт Дружба, вул. Лесі Українки, буд. 1 а",
+    "location": {
+      "lat": 49.369782,
+      "lng": 25.637249
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/001",
+    "address": "м. Харків, пр.Гагаріна, буд. 191/1",
+    "location": {
+      "lat": 49.932183,
+      "lng": 36.262751
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/004",
+    "address": "м. Харків, пр. Тракторобудівників, буд. 2 г",
+    "location": {
+      "lat": 49.977501,
+      "lng": 36.343611
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/006",
+    "address": "м. Харків, пр. Московський, буд. 272 а",
+    "location": {
+      "lat": 49.947778,
+      "lng": 36.389167
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/012",
+    "address": "м. Харків, пр. Пятдесятріччя СРСР, буд. 187 б",
+    "location": {
+      "lat": 49.979167,
+      "lng": 36.310001
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/011",
+    "address": "м. Харків, вул. Академіка Павлова, буд. 44/51",
+    "location": {
+      "lat": 49.989722,
+      "lng": 36.287778
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/015",
+    "address": "м. Харків, пр. Пятдесятиріччя СРСР, буд. 27/1",
+    "location": {
+      "lat": 49.93636,
+      "lng": 36.2832
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/014",
+    "address": "м. Харків, вул. Залютинська, буд. 12",
+    "location": {
+      "lat": 49.9738,
+      "lng": 36.14547
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/017",
+    "address": "м. Зміїв, вул. Гагаріна, буд. 139",
+    "location": {
+      "lat": 49.65818,
+      "lng": 36.3376082
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/016",
+    "address": "смт. Пісочин, вул. Надії, 50",
+    "location": {
+      "lat": 49.950278,
+      "lng": 36.131667
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/019",
+    "address": "м. Барвінкове, вул. 50 років Радянської України, буд. 105",
+    "location": {
+      "lat": 48.916284,
+      "lng": 37.009171
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/022",
+    "address": "с. Дворічний Кут, вул. Леніна, буд. 36",
+    "location": {
+      "lat": 50.044444,
+      "lng": 35.913889
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/020",
+    "address": "м. Ізюм, вул. Короленка, буд. 32 ж",
+    "location": {
+      "lat": 49.217754,
+      "lng": 37.251545
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/023",
+    "address": "смт Краснокутськ, вул. Зарічна, 4 а",
+    "location": {
+      "lat": 50.053757,
+      "lng": 35.183117
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/025",
+    "address": "м. Лозова, вул. Червоногвардiйска, буд. 52-а",
+    "location": {
+      "lat": 48.9123765,
+      "lng": 36.3146453
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "20/026",
+    "address": "м. Первомайський, вул. Харківська, 68",
+    "location": {
+      "lat": 49.3920381,
+      "lng": 36.2073351
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/006",
+    "address": "с. Смотрич, вул. Леніна, буд. 30",
+    "location": {
+      "lat": 48.653897,
+      "lng": 26.570806
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/001",
+    "address": "м. Хмельницький, Львівське шосе, 38/1",
+    "location": {
+      "lat": 49.413192,
+      "lng": 26.938061
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/002",
+    "address": "м. Хмельницький, вул. Камянецька (вул. Фрунзе), буд. 130",
+    "location": {
+      "lat": 49.400531,
+      "lng": 26.959953
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/003",
+    "address": "м. Хмельницький, вул. Пілотська, буд. 12",
+    "location": {
+      "lat": 49.407789,
+      "lng": 27.013631
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/016",
+    "address": "м. Кам`янець-Подільський, пр. Грушевського, 2/7",
+    "location": {
+      "lat": 48.723619,
+      "lng": 26.600225
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/015",
+    "address": "смт Нова Ушиця, вул. Подільська (вул. Леніна), буд. 79",
+    "location": {
+      "lat": 48.830903,
+      "lng": 27.238569
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/018",
+    "address": "с. Шатава, вул. Хмельницьке шосе, буд. 2/3",
+    "location": {
+      "lat": 48.783669,
+      "lng": 26.708944
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/017",
+    "address": "м. Дунаївці, вул. Шевченка, буд. 160",
+    "location": {
+      "lat": 48.902449,
+      "lng": 26.864004
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/020",
+    "address": "м. Городок, вул. Тичини",
+    "location": {
+      "lat": 49.180567,
+      "lng": 26.576081
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/019",
+    "address": "м. Волочиськ, вул. Незалежності (вул. Кірова), буд. 6/3",
+    "location": {
+      "lat": 49.537253,
+      "lng": 26.228053
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/022",
+    "address": "с. Давидківці, а/ш Умань-Краківець",
+    "location": {
+      "lat": 49.402011,
+      "lng": 27.114136
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": true,
+    "title": "22/021",
+    "address": "м. Хмельницький, на розі вул. Прибузької та Трудової",
+    "location": {
+      "lat": 49.420753,
+      "lng": 27.017697
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/024",
+    "address": "с. Стуфченці, а/ш Васьковичі-Порубне 256 км",
+    "location": {
+      "lat": 49.470703,
+      "lng": 27.051693
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/023",
+    "address": "м. Шепетівка, вул. Тургенєва, №65",
+    "location": {
+      "lat": 50.162472,
+      "lng": 27.036858
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/025",
+    "address": "с. Шаровечка, а/ш Умань-Краківець, 297 км",
+    "location": {
+      "lat": 49.402019,
+      "lng": 26.885969
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/027",
+    "address": "с. Ружичанка, траса Аеропорт – Ружичанка та Хмельницький – Чернівці.",
+    "location": {
+      "lat": 49.359817,
+      "lng": 26.963414
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "22/026",
+    "address": "м. Хмельницький, вул. Купріна, буд. 54/7",
+    "location": {
+      "lat": 49.403022,
+      "lng": 26.994244
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/005",
+    "address": "с. Іркліїв, вул. Леніна, буд. 204 а",
+    "location": {
+      "lat": 49.535523,
+      "lng": 32.325796
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/004",
+    "address": "м. Черкаси, вул. Гагаріна, буд. 29/1",
+    "location": {
+      "lat": 49.444444,
+      "lng": 32.072222
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/008",
+    "address": "смт Драбів, вул. Комсомольська, буд. 151",
+    "location": {
+      "lat": 49.9678265,
+      "lng": 32.1371518
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/006",
+    "address": "м. Черкаси, вул. Ільїна, буд. 222",
+    "location": {
+      "lat": 49.440502,
+      "lng": 32.051124
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/007",
+    "address": "м. Монастирище, вул. Леніна, буд. 116",
+    "location": {
+      "lat": 48.991389,
+      "lng": 29.825833
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/012",
+    "address": "м. Тальне, а/ш Умань-Сміла 38 км+200м",
+    "location": {
+      "lat": 48.8822687,
+      "lng": 30.6778538
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/009",
+    "address": "м. Черкаси, вул. Чигиринська,, буд. 60",
+    "location": {
+      "lat": 49.4083878,
+      "lng": 32.1102411
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/011",
+    "address": "м. Сміла, вул. Мазура, буд. 3 а",
+    "location": {
+      "lat": 49.205278,
+      "lng": 31.868611
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/018",
+    "address": "смт Чорнобай, вул. Золотоніська, буд. 5",
+    "location": {
+      "lat": 49.676645,
+      "lng": 32.304281
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/014",
+    "address": "м. Умань, вул. Тимірязєва, 78",
+    "location": {
+      "lat": 48.736298,
+      "lng": 30.246434
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/015",
+    "address": "м. Звенигородка, пр. Шевченка (вул. Жовтня), буд. 135",
+    "location": {
+      "lat": 49.071577,
+      "lng": 31.001994
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/017",
+    "address": "с. Орли, вул. Шевченка, буд. 1 а",
+    "location": {
+      "lat": 49.224338,
+      "lng": 30.835299
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/019",
+    "address": "с. Трушівці, вул. Жовтневої революції, буд. б/н",
+    "location": {
+      "lat": 49.202222,
+      "lng": 32.445001
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/020",
+    "address": "Сільська рада Залевківська, а/д Київ-Луганськ,Ізварне,205км+200м",
+    "location": {
+      "lat": 49.224722,
+      "lng": 31.911389
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/025",
+    "address": "Сільська рада Ребедайлівська, а/д Київ-Луганськ-Ізварне 223 км + 100 м",
+    "location": {
+      "lat": 49.071967,
+      "lng": 32.085788
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/021",
+    "address": "с. Костянтинівка, вул. Леніна, буд.2 в",
+    "location": {
+      "lat": 49.2265875,
+      "lng": 31.8371129
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/022",
+    "address": "м. Шпола, вул. Червоноармійська, буд. 45",
+    "location": {
+      "lat": 49.024481,
+      "lng": 31.417994
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/024",
+    "address": "смт Катеринопіль, вул. Жовтнева, буд. 2 а",
+    "location": {
+      "lat": 48.936111,
+      "lng": 30.980833
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/027",
+    "address": "Сільська рада Орадівська, а/д Орадівка-Монастирище 2+900 м",
+    "location": {
+      "lat": 48.7990653,
+      "lng": 29.9900556
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/026",
+    "address": "м. Ватутіне, вул. Звенигородська, буд .53",
+    "location": {
+      "lat": 49.018032,
+      "lng": 31.060824
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/029",
+    "address": "м. Умань, вул. Деревянко, 19-а",
+    "location": {
+      "lat": 48.734259,
+      "lng": 30.177563
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/028",
+    "address": "с. Софіївка, вул. Радянська, буд. 121",
+    "location": {
+      "lat": 49.826837,
+      "lng": 31.777638
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/031",
+    "address": "м. Городище, вул. Об'їздна, буд. не вказаний",
+    "location": {
+      "lat": 49.285416,
+      "lng": 31.459735
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/030",
+    "address": "м. Корсунь-Шевченківський, вул. Леніна, 377",
+    "location": {
+      "lat": 49.431389,
+      "lng": 31.304444
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/041",
+    "address": "смт Буки, вул. Пушкіна, буд. 4 а, прим",
+    "location": {
+      "lat": 49.096111,
+      "lng": 30.411667
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/032",
+    "address": "м. Сміла, вул. Леніна, буд. 55 а",
+    "location": {
+      "lat": 49.231291,
+      "lng": 31.875686
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/033",
+    "address": "м. Канів, вул. Енергетиків, буд. 12",
+    "location": {
+      "lat": 49.755833,
+      "lng": 31.460001
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/034",
+    "address": "м. Черкаси, вул. Пацаєва, буд. 24/1",
+    "location": {
+      "lat": 49.405833,
+      "lng": 32.100556
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/039",
+    "address": "м. Черкаси, вул. Благовісна, буд. 1/4",
+    "location": {
+      "lat": 49.4576225,
+      "lng": 32.0247015
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/040",
+    "address": "м. Черкаси, пр. Хіміків (вул. ХХ Партзїзду), буд. 74/1",
+    "location": {
+      "lat": 49.3975685,
+      "lng": 32.0630466
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/052",
+    "address": "с. Мала Севастянівка, а/ш Львів-Кіровоград-Знам'янка 503 км+700м.",
+    "location": {
+      "lat": 48.7905775,
+      "lng": 29.9355844
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/043",
+    "address": "с. Софіївка, вул. Радянська, буд. 2 а",
+    "location": {
+      "lat": 49.807751,
+      "lng": 31.787983
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "23/044",
+    "address": "с. Виноград, вул. Леніна, буд. 2",
+    "location": {
+      "lat": 49.245001,
+      "lng": 30.555833
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "24/021",
+    "address": "с. Стрілецький Кут, вул. Шевченка, буд.1",
+    "location": {
+      "lat": 48.345651,
+      "lng": 25.859776
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "24/001",
+    "address": "м. Чернівці, вул. Червоноармійська, буд. 111а",
+    "location": {
+      "lat": 48.255001,
+      "lng": 25.929444
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "24/023",
+    "address": "м. Вашківці, вул. Миколайчука (вул. Залізнодорожна), буд. 70",
+    "location": {
+      "lat": 48.369665,
+      "lng": 25.552782
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "24/022",
+    "address": "с. Яблунівка, вул. Центральна, буд. 56",
+    "location": {
+      "lat": 48.513333,
+      "lng": 25.785001
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "24/026",
+    "address": "м. Новодністровськ, Квартал 18, буд. 1",
+    "location": {
+      "lat": 48.58154,
+      "lng": 27.440773
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "24/024",
+    "address": "м. Чернівці, вул. Ярослава Мудрого, 46",
+    "location": {
+      "lat": 48.324539,
+      "lng": 25.930473
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "24/025",
+    "address": "м. Чернівці, вул. Миколаївська, буд.7",
+    "location": {
+      "lat": 48.266652,
+      "lng": 25.961355
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "24/027",
+    "address": "с. Росошани, вул. Центральна, 187",
+    "location": {
+      "lat": 48.391213,
+      "lng": 27.017301
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "24/028",
+    "address": "смт Глибока, вул. Першотравнева, буд. 64",
+    "location": {
+      "lat": 48.067842,
+      "lng": 25.933713
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "25/001",
+    "address": "м. Чернігів, Київське шосе, буд. 3",
+    "location": {
+      "lat": 51.470401,
+      "lng": 31.301401
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "25/002",
+    "address": "м. Прилуки, вул. Вавилова, 26 а",
+    "location": {
+      "lat": 50.601817,
+      "lng": 32.328501
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "25/009",
+    "address": "Сільська рада Киїнська, 148 км а/ш Київ-Чернігів-Н.Яриловичі",
+    "location": {
+      "lat": 51.466067,
+      "lng": 31.188933
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "25/004",
+    "address": "м. Чернігів, вул. Гагаріна Ю., буд. 14а",
+    "location": {
+      "lat": 51.498083,
+      "lng": 31.252933
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "25/005",
+    "address": "м. Чернігів, вул. Глібова, буд. 98",
+    "location": {
+      "lat": 51.517983,
+      "lng": 31.245983
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "25/012",
+    "address": "м. Прилуки, вул. Пирятинська (вул. Дзержинського), буд. 98",
+    "location": {
+      "lat": 50.561833,
+      "lng": 32.398867
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "25/013",
+    "address": "м. Прилуки, вул. 1-го Травня, буд.60",
+    "location": {
+      "lat": 50.587433,
+      "lng": 32.381651
+    },
+    "accuracy": 5
+  },
+  {
+    "isShow": true,
+    "isNew": false,
+    "title": "25/015",
+    "address": "м. Прилуки, вул. Гвардiйська, 67",
+    "location": {
+      "lat": 50.578517,
+      "lng": 32.408501
+    },
+    "accuracy": 5
+  }
+]

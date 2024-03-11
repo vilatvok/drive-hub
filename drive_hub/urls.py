@@ -25,43 +25,71 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
 )
 
-from cars.views import *
-from fuel_store.views import *
-from users.views import *
-from enterprises.views import *
+from drive_hub.yasg import urlpatterns as doc
 
-from .yasg import urlpatterns as doc
+from users.views import (
+    AchievementViewSet, 
+    UserViewSet,
+    PasswordResetLinkAPIView, 
+    PasswordResetAPIView,
+    RouteAPIView,
+    EmailVerificateAPIView,
+    CommentLikeAPIView,
+    CommentDeleteAPIView
+)
+from fuels.views import (
+    FuelViewSet,
+    OrderViewSet,
+    WogAPIView,
+    OkkoAPIView,
+    UkrnaftaAPIView,
+    AnpAPIView,
+    FuelPricesAPIView,
+)
+from cars.views import CarViewSet, FineViewSet
+from enterprises.views import CompanyViewSet, CarServiceViewSet
 
 
 r = DefaultRouter()
+# users viewsets
+r.register(r'users', UserViewSet, basename='users')
+r.register(r'achievements', AchievementViewSet, basename='achievements')
 
-r.register(r"fuels", FuelViewSet, basename="fuel")
-r.register(r"users", UserViewSet, basename="users")
-r.register(r"achievements", AchievementViewSet, basename="achievements")
-r.register(r"cars", CarViewSet, basename="cars")
-r.register(r"orders", OrderViewSet, basename="orders")
-r.register(r"wog_stations", WogViewSet, basename="wog")
-r.register(r"okko_stations", OkkoViewSet, basename="okko")
-r.register(r"ukrnafta_stations", UkrnaftaViewSet, basename="ukrnafta")
-r.register(r"anp_stations", AnpViewSet, basename="anp")
-r.register(r"companies", CompanyViewSet, basename="company")
-r.register(r"services", CarServiceViewSet, basename="service")
+# fuels viewsets
+r.register(r'fuels', FuelViewSet, basename='fuels')
+r.register(r'orders', OrderViewSet, basename='orders')
+
+# cars viewsets
+r.register(r'cars', CarViewSet, basename='cars')
+r.register(r'fines', FineViewSet, basename='fines')
+
+# enterprises viewsets
+r.register(r'companies', CompanyViewSet, basename='company')
+r.register(r'services', CarServiceViewSet, basename='service')
 
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("", include(r.urls)),
-    path("api-auth/", include("rest_framework.urls")),
-    path("api/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
-    path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
-    path("__debug__/", include("debug_toolbar.urls")),
-    path("road/", RoadView.as_view(), name="road"),
-    path("fuel_prices/", FuelPricesView.as_view()),
-    path("fines/", FineView.as_view(), name="fines"),
-    path("like_comment/<int:comment_id>/", CommentLike.as_view(), name="like_comment"),
-    path("email_verificate/<token>/", EmailVerificateView.as_view(), name="email_verificate"),
-    path("password_reset/", PasswordResetSendView.as_view(), name="password_reset_send"),
-    path("password_reset/<uidb64>/<token>/", PasswordResetView.as_view(), name="password_reset"),
+    path('', include(r.urls)),
+    path('admin/', admin.site.urls),
+    path('api-auth/', include('rest_framework.urls')),
+    path('__debug__/', include('debug_toolbar.urls')),
+    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    
+    # Stations views
+    path('wog-stations/', WogAPIView.as_view(), name='wog_stations'),
+    path('okko-stations/', OkkoAPIView.as_view(), name='okko_stations'),
+    path('ukrnafta-stations/', UkrnaftaAPIView.as_view(), name='ukrnafta_stations'),
+    path('anp-stations/', AnpAPIView.as_view(), name='anp_stations'),
+
+    # Custom views
+    path('routes/', RouteAPIView.as_view(), name='routes'),
+    path('fuel-prices/', FuelPricesAPIView.as_view()),
+    path('delete-comment/<int:comment_id>/', CommentDeleteAPIView.as_view(), name='delete_comment'),
+    path('like-comment/<int:comment_id>/', CommentLikeAPIView.as_view(), name='like_comment'),
+    path('email-verificate/<token>/', EmailVerificateAPIView.as_view(), name='email_verificate'),
+    path('password-reset/', PasswordResetLinkAPIView.as_view(), name='password_reset_link'),
+    path('password-reset/<uidb64>/<token>/', PasswordResetAPIView.as_view(), name='password_reset'),
 ]
 
 urlpatterns += doc

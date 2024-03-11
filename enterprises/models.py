@@ -19,7 +19,7 @@ class Enterprice(models.Model):
     address = models.CharField()
     is_verified = models.BooleanField(default=False)
     added_by = models.ForeignKey(
-        get_user_model(), on_delete=models.PROTECT, related_name="%(class)s_added"
+        get_user_model(), on_delete=models.PROTECT, related_name='%(class)s_added'
     )
 
     class Meta:
@@ -39,14 +39,14 @@ class Company(Enterprice):
 
 
 class CarService(Enterprice):
-    INDUSTRY = [("car wash", "Car Wash"), ("car service", "Car Service")]
+    INDUSTRY = [('car wash', 'Car Wash'), ('car service', 'Car Service')]
 
     industry = models.CharField(choices=INDUSTRY)
     company = models.ForeignKey(
-        "Company", on_delete=models.CASCADE, related_name="car_service"
+        'Company', on_delete=models.CASCADE, related_name='car_service'
     )
-    comment = GenericRelation(Comment, related_query_name="service_comment")
-    rating = GenericRelation(Rating, related_query_name="service_rating")
+    comments = GenericRelation(Comment, related_query_name='service_comment')
+    rating = GenericRelation(Rating, related_query_name='service_rating')
 
     @property
     def average_rating(self):

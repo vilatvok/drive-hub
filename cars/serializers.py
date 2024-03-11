@@ -1,12 +1,8 @@
 from rest_framework import serializers
 
-from .models import Fine, ElectricCar, FuelCar
+from cars.models import Fine, ElectricCar, FuelCar
 
-from fuel_store.models import Fuel
-
-
-class Pass(serializers.Serializer):
-    pass
+from fuels.models import Fuel
 
 
 class CarRelatedField(serializers.RelatedField):
@@ -15,28 +11,28 @@ class CarRelatedField(serializers.RelatedField):
             return value.name
         elif isinstance(value, FuelCar):
             return value.name
-        raise "Unexpected car type"
+        raise 'Unexpected car type'
 
 
 class ElectricCarSerializer(serializers.ModelSerializer):
-    owner = serializers.ReadOnlyField(source="owner.username")
+    owner = serializers.ReadOnlyField(source='owner.username')
     verified = serializers.ReadOnlyField()
 
     class Meta:
         model = ElectricCar
-        fields = "__all__"
+        fields = '__all__'
 
 
 class FuelCarSerializer(serializers.ModelSerializer):
-    owner = serializers.ReadOnlyField(source="owner.username")
+    owner = serializers.ReadOnlyField(source='owner.username')
     fuel_type = serializers.SlugRelatedField(
-        slug_field="name", queryset=Fuel.objects.all()
+        slug_field='name', queryset=Fuel.objects.all()
     )
     verified = serializers.ReadOnlyField()
 
     class Meta:
         model = FuelCar
-        fields = "__all__"
+        fields = '__all__'
 
 
 class FineSerializer(serializers.ModelSerializer):
@@ -44,4 +40,4 @@ class FineSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Fine
-        exclude = ["person", "object_id", "content_type"]
+        exclude = ['person', 'object_id', 'content_type']

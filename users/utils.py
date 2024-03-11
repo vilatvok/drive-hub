@@ -1,6 +1,7 @@
-import networkx as nx
 import json
 import jwt
+import requests
+import networkx as nx
 
 from datetime import datetime, timedelta
 
@@ -12,47 +13,56 @@ from django.utils.encoding import force_bytes
 from geopy.distance import geodesic
 
 
-with open("static/json_files/ua.json", "r") as f:
+with open('staticfiles/json/cities.json', 'r') as f:
     cities = json.load(f)
 
+url = requests.get(f'http://ip-api.com/json/185.204.71.251')
 
-cities_ = [(i["city"], i["city"]) for i in cities]
-
-graph = nx.Graph()
-
-# create graph with cities
-for city in cities:
-    graph.add_node(city["city"])
-
-    # get city coordinates
-    long = float(city["lng"])
-    city_coord = (float(city["lat"]), long)
-
-    # get other cities coordinates and create way between cities with similar coordinates
-    # similar coordinates - when difference between coordinates less than 2
-    for other in cities:
-        long_other = float(other["lng"])
-        other_coord = (float(other["lat"]), long_other)
-        if int(long) > int(long_other):
-            check = int(long) - int(long_other)
-            if check < 2:
-                graph.add_edge(
-                    city["city"],
-                    other["city"],
-                    weight=round(geodesic(city_coord, other_coord).km + 10, 2),
-                )
-        else:
-            check = int(long_other) - int(long)
-            if check < 2:
-                graph.add_edge(
-                    city["city"],
-                    other["city"],
-                    weight=round(geodesic(city_coord, other_coord).km + 10, 2),
-                )
+# Serializer choices
+cities_ = [url.json()['city']]
+cities_2 = [cities_.append(i['city']) for i in cities]
 
 
-def create_register_token(**kwargs):
-    token = {"exp": int((datetime.utcnow() + timedelta(minutes=5)).timestamp())}
+def generate_routes(cities):
+    """Generate routes between cities."""
+    routes = nx.Graph()
+    for city in cities:
+        routes.add_node(city['city'])
+
+        # get city coordinates
+        long = float(city['lng'])
+        city_coord = (float(city['lat']), long)
+
+        # get other cities coordinates and create way between cities with similar coordinates
+        # similar coordinates - when difference between coordinates less than 2
+        for other in cities:
+            long_other = float(other['lng'])
+            other_coord = (float(other['lat']), long_other)
+            if int(long) > int(long_other):
+                check = int(long) - int(long_other)
+                if check < 2:
+                    routes.add_edge(
+                        city['city'],
+                        other['city'],
+                        weight=round(geodesic(city_coord, other_coord).km + 10, 2),
+                    )
+            else:
+                check = int(long_other) - int(long)
+                if check < 2:
+                    routes.add_edge(
+                        city['city'],
+                        other['city'],
+                        weight=round(geodesic(city_coord, other_coord).km + 10, 2),
+                    )
+    return routes
+
+
+routes = generate_routes(cities)
+
+
+def create_register_token(time=5, **kwargs):
+    """Token for registration. Time limit by default 5 minutes."""
+    token = {'exp': int((datetime.utcnow() + timedelta(minutes=time)).timestamp())}
     token.update(kwargs)
     token = jwt.encode(
         token,
@@ -62,45 +72,25 @@ def create_register_token(**kwargs):
 
 
 def get_register_token(token):
-    t = jwt.decode(token, settings.SECRET_KEY, "HS256")
-    return t
+    token = jwt.decode(token, settings.SECRET_KEY, 'HS256')
+    return token
 
 
-# find the shortest way between two cities
-def create_roads(my_city, other_city):
-    dist = nx.shortest_path(graph, source=my_city, target=other_city, weight="weight")
+def create_routes(my_city, other_city):
+    """Create the shortest way between two cities."""
+    dist = nx.shortest_path(routes, source=my_city, target=other_city, weight='weight')
     dist_km = round(
         nx.shortest_path_length(
-            graph, source=my_city, target=other_city, weight="weight"
-        ),
-        2,
-    )
+            routes, source=my_city, target=other_city, weight='weight'
+        ), 2)
     return dist, dist_km
 
 
-def send_token_email(url, token, user=None, email=None):
-    if user:
-        uid = urlsafe_base64_encode(force_bytes(user))
-        return send_mail(
-            "Verification",
-            url + f"{uid}/{token}/",
-            "kvydyk@gmail.com",
-            [user.email],
-        )
-    elif email:
-        return send_mail(
-            "Verification",
-            url + f"{token}/",
-            "kvydyk@gmail.com",
-            [email],
-        )
-
-
-def get_client_ip_address(request):
-    req_headers = request.META
-    x_forwarded_for_value = req_headers.get("HTTP_X_FORWARDED_FOR")
-    if x_forwarded_for_value:
-        ip_addr = x_forwarded_for_value.split(",")[-1].strip()
-    else:
-        ip_addr = req_headers.get("REMOTE_ADDR")
-    return ip_addr
+def send_token_email(url, email):
+    """Send one time link with token to email adress."""
+    return send_mail(
+        'Verification',
+        url,
+        'kvydyk@gmail.com',
+        [email],
+    )
