@@ -36,13 +36,13 @@ def get_activity_scheduler(user_id, username, date_joined):
     date = date_joined + timedelta(days=365)
     crontab, _ = CrontabSchedule.objects.get_or_create(
         day_of_month=date.day,
-        month_of_year=date.month
+        month_of_year=date.month,
     )
 
-    per, _ = PeriodicTask.objects.get_or_create(
+    PeriodicTask.objects.create(
         crontab=crontab,
         name=f'get-activity-achievement-{username}',
         task='users.tasks.get_activity_achievement',
         args=json.dumps([user_id]),
-        one_off=True
+        one_off=True,
     )

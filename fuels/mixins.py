@@ -25,15 +25,14 @@ class BaseStationMixin(ListAPIView):
 
         city = request.query_params.get('city')
         if city:
-            filter_query = [
-                station
-                for station in queryset
-                if city.title() in station[self.city_field]
-            ]
+            filter_queryset = []
+            for station in queryset:
+                if city.title() in station[self.city_field]:
+                    filter_queryset.append(station)
         else:
-            filter_query = queryset
+            filter_queryset = queryset
 
-        page = self.paginate_queryset(filter_query)
+        page = self.paginate_queryset(filter_queryset)
 
         if page is not None:
             serializer = self.get_serializer(page, many=True)

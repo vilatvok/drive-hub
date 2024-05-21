@@ -10,7 +10,8 @@ class EnterpriseSerializer(serializers.HyperlinkedModelSerializer):
 
 class CompanySerializer(EnterpriseSerializer):
     url = serializers.HyperlinkedIdentityField(
-        view_name='company-detail', lookup_field='slug'
+        view_name='company-detail',
+        lookup_field='slug',
     )
 
     class Meta:
@@ -20,10 +21,12 @@ class CompanySerializer(EnterpriseSerializer):
 
 class CarServiceSerializer(EnterpriseSerializer):
     url = serializers.HyperlinkedIdentityField(
-        view_name='service-detail', lookup_field='slug'
+        view_name='service-detail',
+        lookup_field='slug',
     )
     company = serializers.SlugRelatedField(
-        slug_field='name', queryset=Company.objects.all()
+        slug_field='name',
+        queryset=Company.objects.all(),
     )
 
     class Meta:

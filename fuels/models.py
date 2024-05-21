@@ -14,16 +14,16 @@ class Fuel(models.Model):
     slug = models.SlugField(unique=True, max_length=30)
     name = models.CharField(max_length=20, unique=True)
     price = models.DecimalField(max_digits=5, decimal_places=2)
+    date_update = models.DateTimeField(auto_now=True)
     coupon = models.ForeignKey(
-        'Coupon',
+        to='Coupon',
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
         related_name='fuel',
     )
-    date_update = models.DateTimeField(auto_now=True)
-    comments = GenericRelation(Comment, related_query_name='fuel_comment')
-    rating = GenericRelation(Rating, related_query_name='fuel_rating')
+    comments = GenericRelation(to=Comment, related_query_name='fuel_comment')
+    rating = GenericRelation(to=Rating, related_query_name='fuel_rating')
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -57,10 +57,14 @@ class Fuel(models.Model):
 
 class Order(models.Model):
     owner = models.ForeignKey(
-        get_user_model(), on_delete=models.CASCADE, related_name='orders'
+        to=get_user_model(),
+        on_delete=models.CASCADE,
+        related_name='orders',
     )
     fuel_type = models.ForeignKey(
-        'Fuel', on_delete=models.CASCADE, related_name='order'
+        to='Fuel',
+        on_delete=models.CASCADE,
+        related_name='order',
     )
     payment = models.DecimalField(max_digits=6, decimal_places=2)
     date = models.DateTimeField(auto_now_add=True)

@@ -1,9 +1,9 @@
 from math import ceil
 
 from django.contrib.auth import get_user_model
+from django.contrib.auth.tokens import default_token_generator
 from django.utils.http import urlsafe_base64_decode, urlsafe_base64_encode
 from django.utils.encoding import force_str, force_bytes
-from django.contrib.auth.tokens import default_token_generator
 
 from rest_framework import status
 from rest_framework.viewsets import ModelViewSet, ReadOnlyModelViewSet
@@ -34,13 +34,12 @@ class UserViewSet(ModelViewSet):
 
     def create(self, request, *args, **kwargs):
         """This method doesnt create user until user verificate email."""
-
         serializer = serializers.UserSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         token = utils.create_register_token(**serializer.validated_data)
         utils.send_token_email(
-            f'http://127.0.0.1:8000/email-verificate/{token}',
-            serializer.validated_data['email'],
+            url=f'http://127.0.0.1:8000/email-verificate/{token}',
+            email=serializer.validated_data['email'],
         )
         return Response({'status': 'Check email'})
 
@@ -70,19 +69,30 @@ class UserViewSet(ModelViewSet):
     @action(detail=True, methods=['get'], url_path='get-achievements')
     def get_achievements(self, request, slug=None):
         data = self.get_object().achievements.all()
-        serializer = serializers.UserAchievementSerializer(data, many=True)
+        serializer = serializers.UserAchievementSerializer(
+            instance=data, 
+            many=True,
+        )
         return Response(serializer.data)
 
     @action(detail=True, methods=['get'], url_path='get-companies')
     def get_companies(self, request, slug=None):
         data = self.get_object().company_added.all()
-        serializer = CompanySerializer(data, many=True, context={'request': request})
+        serializer = CompanySerializer(
+            instance=data,
+            many=True,
+            context={'request': request},
+        )
         return Response(serializer.data)
 
     @action(detail=True, methods=['get'], url_path='get-services')
     def get_services(self, request, slug=None):
         data = self.get_object().carservice_added.all()
-        serializer = CarServiceSerializer(data, many=True, context={'request': request})
+        serializer = CarServiceSerializer(
+            instance=data,
+            many=True,
+            context={'request': request},
+        )
         return Response(serializer.data)
 
 
@@ -94,12 +104,15 @@ class CommentLikeAPIView(APIView):
         if comment.likes.filter(id=request.user.id).exists():
             comment.likes.remove(request.user)
             comment.save()
-            return Response({'status': 'error'}, status.HTTP_400_BAD_REQUEST)
+            return Response(
+                data={'status': 'error'},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
         else:
             comment.likes.add(request.user)
             comment.save()
             return Response({'status': 'success'})
-        
+
 
 class CommentDeleteAPIView(DestroyAPIView):
     queryset = (
@@ -108,12 +121,14 @@ class CommentDeleteAPIView(DestroyAPIView):
     serializer_class = serializers.CommentSerializer
     lookup_url_kwarg = 'comment_id'
 
-    def destroy(self, request, *args, **kwargs):
-        instance = self.get_object()
-        if instance.user == self.request.user:
-            self.perform_destroy(instance)
-            return Response(status=status.HTTP_204_NO_CONTENT)
-        return Response({'status': 'Forbidden'}, status=status.HTTP_403_FORBIDDEN)
+    def perform_destroy(self, instance):
+        if self.request.user == instance.user:
+            instance.delete()
+        else:
+            return Response(
+                data={'status': 'Forbidden'},
+                status=status.HTTP_403_FORBIDDEN,
+            )
 
 
 class EmailVerificateAPIView(APIView):
@@ -123,7 +138,10 @@ class EmailVerificateAPIView(APIView):
         try:
             token = utils.get_register_token(token)
         except ExpiredSignatureError:
-            return Response({'status': 'token is invalid'}, status.HTTP_400_BAD_REQUEST)
+            return Response(
+                data={'status': 'token is invalid'},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
         else:
             user, created = User.objects.get_or_create(
                 username=token['username'],
@@ -134,9 +152,16 @@ class EmailVerificateAPIView(APIView):
                 phone=token['phone'],
             )
             if created:
-                get_activity_scheduler(user.id, user.username, user.date_joined)
+                get_activity_scheduler(
+                    user.id,
+                    user.username,
+                    user.date_joined,
+                )
                 return Response({'status': 'success'})
-            return Response({'status': 'already created'}, status.HTTP_400_BAD_REQUEST)
+            return Response(
+                data={'status': 'already created'},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
 
 
 class PasswordResetLinkAPIView(APIView):
@@ -151,17 +176,19 @@ class PasswordResetLinkAPIView(APIView):
             user = User.objects.get(email=serializer.validated_data['email'])
         except User.DoesNotExist:
             return Response(
-                {'status': "User with such email doesn't exist"},
-                status.HTTP_400_BAD_REQUEST,
+                data={'status': "User with such email doesn't exist"},
+                status=status.HTTP_400_BAD_REQUEST,
             )
         else:
             uuid = urlsafe_base64_encode(force_bytes(user))
             token = default_token_generator.make_token(user)
             utils.send_token_email(
-                f'http://127.0.0.1:8000/password_reset/{uuid}/{token}/',
-                user.email
+                url=f'http://127.0.0.1:8000/password_reset/{uuid}/{token}/',
+                email=user.email,
             )
-            return Response({'status': 'The letter has been sent to your email'})
+            return Response(
+                {'status': 'The letter has been sent to your email'},
+            )
 
 
 class PasswordResetAPIView(APIView):
@@ -174,10 +201,13 @@ class PasswordResetAPIView(APIView):
         user = User.objects.get(username=user)
         valid = default_token_generator.check_token(user, token)
         if not valid:
-            return Response({'status': 'Invalid token'}, status.HTTP_400_BAD_REQUEST)
+            return Response(
+                data={'status': 'Invalid token'},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
         user.set_password(serializer.validated_data['new_password'])
         user.save()
-        return Response({'status': 'Changed'}, status.HTTP_200_OK)
+        return Response(data={'status': 'Changed'}, status=status.HTTP_200_OK)
 
 
 class AchievementViewSet(ReadOnlyModelViewSet):
@@ -196,20 +226,41 @@ class RouteAPIView(CreateAPIView):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
 
-        from_ = serializer.validated_data['from_']
-        where = serializer.validated_data['where']
-        avg_speed = serializer.validated_data['avg_speed']
+        from_city = request.query_params.get('from-city')
+        if not from_city:
+            from_city = serializer.validated_data.get('from_city')
+            if not from_city:
+                return Response(
+                    data={'status': 'from_city is required'},
+                    status=status.HTTP_400_BAD_REQUEST,
+                )
 
-        shortest, km = utils.create_routes(from_, where)
+        to_city = request.query_params.get('to-city')
+        if not to_city:
+            to_city = serializer.validated_data.get('to_city')
+            if not to_city:
+                return Response(
+                    data={'status': 'to_city is required'},
+                    status=status.HTTP_400_BAD_REQUEST,
+                )
+
+        avg_speed = request.query_params.get('avg-speed')
+        if not avg_speed:
+            avg_speed = serializer.validated_data.get('avg_speed')
+        avg_speed = int(avg_speed)
+        
+        shortest, km = utils.create_routes(from_city, to_city)
 
         time_drive = round(km / avg_speed, 2)
         hours_drive = int(time_drive)
         minutes_drive = ceil(time_drive % 1 * 60)
 
+        time_drive = f'{hours_drive} hours {minutes_drive} minutes'
+
         data = {
-            'city': where,
+            'city': to_city,
             'shortest_way': shortest,
             'distance': km,
-            f'time_drive ({avg_speed} km/h)': f'{hours_drive} hours {minutes_drive} minutes',
+            f'time_drive ({avg_speed} km/h)': time_drive,
         }
         return Response(data)

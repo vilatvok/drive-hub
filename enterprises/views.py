@@ -28,7 +28,9 @@ class CarServiceViewSet(EnterpriseMixin):
         rating = obj.average_rating
         comments = obj.comments.select_related('user').prefetch_related('likes')
         com_serializer = CommentSerializer(
-            comments, many=True, context={'request': request}
+            instance=comments,
+            many=True,
+            context={'request': request},
         )
 
         response = resp.data
@@ -43,18 +45,26 @@ class CarServiceViewSet(EnterpriseMixin):
         service = self.get_object()
         content = ContentType.objects.get_for_model(CarService)
 
-        r = Rating.objects.filter(
-            user=request.user, content_type=content, object_id=service.id
+        rating = Rating.objects.filter(
+            user=request.user,
+            content_type=content,
+            object_id=service.id,
         )
-        if not r.exists():
+        if not rating.exists():
             serializer = RatingSerializer(data=request.data)
             serializer.is_valid(raise_exception=True)
             serializer.save(
-                user=request.user, content_type=content, object_id=service.id
+                user=request.user,
+                content_type=content,
+                object_id=service.id,
             )
             return Response(serializer.data, status.HTTP_201_CREATED)
         else:
-            serializer = RatingSerializer(r.first(), data=request.data, partial=True)
+            serializer = RatingSerializer(
+                instance=rating.first(),
+                data=request.data,
+                partial=True,
+            )
             serializer.is_valid(raise_exception=True)
             serializer.save()
             return Response(serializer.data)
@@ -63,10 +73,14 @@ class CarServiceViewSet(EnterpriseMixin):
     def add_comment(self, request, slug=None):
         service = self.get_object()
         content_type = ContentType.objects.get_for_model(CarService)
-        serializer = CommentSerializer(data=request.data, context={'request': request})
+        serializer = CommentSerializer(
+            data=request.data,
+            context={'request': request},
+        )
         serializer.is_valid(raise_exception=True)
         serializer.save(
-            user=request.user, content_type=content_type, object_id=service.id
+            user=request.user,
+            content_type=content_type,
+            object_id=service.id,
         )
         return Response(serializer.data, status.HTTP_201_CREATED)
-  

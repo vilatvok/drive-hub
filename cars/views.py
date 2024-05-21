@@ -1,4 +1,5 @@
 from django.db.models import Q
+from django.http import Http404
 from django.shortcuts import get_object_or_404
 
 from rest_framework import status
@@ -7,7 +8,11 @@ from rest_framework.viewsets import ViewSet, ReadOnlyModelViewSet
 from rest_framework.permissions import IsAuthenticated
 
 from cars.models import Fine, ElectricCar, FuelCar
-from cars.serializers import FuelCarSerializer, ElectricCarSerializer, FineSerializer
+from cars.serializers import (
+    FuelCarSerializer,
+    ElectricCarSerializer,
+    FineSerializer,
+)
 from cars.permissions import IsPassport
 
 
@@ -25,12 +30,12 @@ class CarViewSet(ViewSet):
             filter(owner=self.request.user)
         )
         return (elect, fuel)
-    
+
     def list(self, request, *args, **kwargs):
         elec, fuel = self.get_queryset()
-        fuel_ser = FuelCarSerializer(fuel, many=True)
-        elec_ser = ElectricCarSerializer(elec, many=True)
-        return Response(fuel_ser.data + elec_ser.data)
+        fuel_serializer = FuelCarSerializer(instance=fuel, many=True)
+        elec_serializer = ElectricCarSerializer(instance=elec, many=True)
+        return Response(fuel_serializer.data + elec_serializer.data)
 
     def create(self, request, *args, **kwargs):
         type_car = request.data.get('car_type')
@@ -43,7 +48,7 @@ class CarViewSet(ViewSet):
         serializer.is_valid(raise_exception=True)
         serializer.save(owner=request.user)
         return Response(serializer.data, status.HTTP_201_CREATED)
-    
+
     def get_object(self):
         q, q2 = self.get_queryset()
 
@@ -51,10 +56,10 @@ class CarViewSet(ViewSet):
         assert lookup_url_kwarg in self.kwargs, (
             (self.__class__.__name__, lookup_url_kwarg)
         )
-        filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
+        filter_kwargs = {lookup_url_kwarg: self.kwargs[lookup_url_kwarg]}
         try:
             obj = get_object_or_404(q, **filter_kwargs)
-        except:
+        except Http404:
             obj = get_object_or_404(q2, **filter_kwargs)
 
         # May raise a permission denied
@@ -68,7 +73,7 @@ class CarViewSet(ViewSet):
         else:
             serializer = ElectricCarSerializer(instance)
         return Response(serializer.data)
-    
+
     def destroy(self, request, *args, **kwargs):
         instance = self.get_object()
         instance.delete()
@@ -80,11 +85,11 @@ class FineViewSet(ReadOnlyModelViewSet):
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
+        user = self.request.user
         return (
             Fine.objects.select_related('person').prefetch_related('car').
             filter(
-                Q(person=self.request.user, fuel__verified='verified') |
-                Q(person=self.request.user, elec__verified='verified')
+                Q(person=user, fuel__verified='verified') |
+                Q(person=user, elec__verified='verified'),
             )
         )
-        

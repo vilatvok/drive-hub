@@ -21,7 +21,7 @@ class IsUser(BasePermission):
             'destroy',
             'change_password',
             'add_passport',
-            'passport'
+            'passport',
         ]:
             return request.user == obj
         return True

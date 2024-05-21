@@ -28,9 +28,9 @@ from rest_framework_simplejwt.views import (
 from drive_hub.yasg import urlpatterns as doc
 
 from users.views import (
-    AchievementViewSet, 
+    AchievementViewSet,
     UserViewSet,
-    PasswordResetLinkAPIView, 
+    PasswordResetLinkAPIView,
     PasswordResetAPIView,
     RouteAPIView,
     EmailVerificateAPIView,
@@ -73,26 +73,61 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('__debug__/', include('debug_toolbar.urls')),
-    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    
+    path(
+        'api/token/',
+        TokenObtainPairView.as_view(),
+        name='token_obtain_pair',
+    ),
+    path(
+        'api/token/refresh/',
+        TokenRefreshView.as_view(),
+        name='token_refresh',
+    ),
+
     # Stations views
     path('wog-stations/', WogAPIView.as_view(), name='wog_stations'),
     path('okko-stations/', OkkoAPIView.as_view(), name='okko_stations'),
-    path('ukrnafta-stations/', UkrnaftaAPIView.as_view(), name='ukrnafta_stations'),
+    path(
+        'ukrnafta-stations/',
+        UkrnaftaAPIView.as_view(),
+        name='ukrnafta_stations',
+    ),
     path('anp-stations/', AnpAPIView.as_view(), name='anp_stations'),
 
     # Custom views
     path('routes/', RouteAPIView.as_view(), name='routes'),
     path('fuel-prices/', FuelPricesAPIView.as_view()),
-    path('delete-comment/<int:comment_id>/', CommentDeleteAPIView.as_view(), name='delete_comment'),
-    path('like-comment/<int:comment_id>/', CommentLikeAPIView.as_view(), name='like_comment'),
-    path('email-verificate/<token>/', EmailVerificateAPIView.as_view(), name='email_verificate'),
-    path('password-reset/', PasswordResetLinkAPIView.as_view(), name='password_reset_link'),
-    path('password-reset/<uidb64>/<token>/', PasswordResetAPIView.as_view(), name='password_reset'),
+    path(
+        'delete-comment/<int:comment_id>/',
+        CommentDeleteAPIView.as_view(),
+        name='delete_comment',
+    ),
+    path(
+        'like-comment/<int:comment_id>/',
+        CommentLikeAPIView.as_view(),
+        name='like_comment',
+    ),
+    path(
+        'email-verificate/<token>/',
+        EmailVerificateAPIView.as_view(),
+        name='email_verificate',
+    ),
+    path(
+        'password-reset/',
+        PasswordResetLinkAPIView.as_view(),
+        name='password_reset_link',
+    ),
+    path(
+        'password-reset/<uidb64>/<token>/',
+        PasswordResetAPIView.as_view(),
+        name='password_reset',
+    ),
 ]
 
 urlpatterns += doc
 
 if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    urlpatterns += static(
+        settings.MEDIA_URL,
+        document_root=settings.MEDIA_ROOT,
+    )

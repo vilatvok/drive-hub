@@ -8,7 +8,10 @@ from django.core.validators import (
     MaxLengthValidator,
 )
 from django.contrib.contenttypes.models import ContentType
-from django.contrib.contenttypes.fields import GenericForeignKey, GenericRelation
+from django.contrib.contenttypes.fields import (
+    GenericForeignKey,
+    GenericRelation,
+)
 
 from fuels.models import Fuel
 
@@ -32,7 +35,9 @@ class Car(models.Model):
     ]
 
     owner = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name='%(class)s_owner'
+        to=User,
+        on_delete=models.CASCADE,
+        related_name='%(class)s_owner',
     )
     name = models.CharField(max_length=50)
     year = models.PositiveIntegerField(
@@ -40,25 +45,37 @@ class Car(models.Model):
     )
     registration_number = models.CharField(
         max_length=20,
-        validators=[MinLengthValidator(8), MaxLengthValidator(8), validate_number],
+        validators=[
+            MinLengthValidator(8),
+            MaxLengthValidator(8),
+            validate_number,
+        ],
     )
     image = models.ImageField(upload_to='cars/')
     verified = models.CharField(
-        max_length=20, choices=VERIFY_CHOICES, default='pending'
+        max_length=20,
+        choices=VERIFY_CHOICES,
+        default='pending',
     )
 
     def __str__(self):
         return self.name
 
     class Meta:
-        abstract = True 
+        abstract = True
 
 
 class FuelCar(Car):
-    fuel_efficiency = models.PositiveIntegerField(validators=[MaxValueValidator(100)])
-    fuel_type = models.ForeignKey(Fuel, on_delete=models.SET, related_name='car')
-    fuel_relation = GenericRelation('Fine', related_query_name='fuel')
-    
+    fuel_efficiency = models.PositiveIntegerField(
+        validators=[MaxValueValidator(100)],
+    )
+    fuel_type = models.ForeignKey(
+        to=Fuel,
+        on_delete=models.SET,
+        related_name='car',
+    )
+    fuel_relation = GenericRelation(to='Fine', related_query_name='fuel')
+
 
 class ElectricCar(Car):
     battery = models.PositiveIntegerField()
@@ -69,19 +86,21 @@ class ElectricCar(Car):
 class Fine(models.Model):
     FINES = [('speed', 'Limit speed'), ('state', 'Alcohol')]
     person = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name='fine'
+        to=User,
+        on_delete=models.CASCADE,
+        related_name='fine',
     )
-    type_of_fine = models.CharField(max_length=40, choices=FINES)
-    sum_of_fine = models.PositiveIntegerField()
-    description = models.TextField(blank=True)
-    created_date = models.DateTimeField(auto_now_add=True)
     content_type = models.ForeignKey(
-        ContentType,
+        to=ContentType,
         on_delete=models.CASCADE,
         limit_choices_to={'model__in': ('fuelcar', 'electriccar')},
     )
     object_id = models.PositiveIntegerField()
     car = GenericForeignKey('content_type', 'object_id')
+    type_of_fine = models.CharField(max_length=40, choices=FINES)
+    sum_of_fine = models.PositiveIntegerField()
+    description = models.TextField(blank=True)
+    created_date = models.DateTimeField(auto_now_add=True)
 
     def save(self, *args, **kwargs):
         if self.car:

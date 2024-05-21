@@ -30,7 +30,9 @@ class FuelViewSet(ReadOnlyModelViewSet):
         rating = obj.average_rating
         comments = obj.comments.select_related('user').prefetch_related('likes')
         com_serializer = CommentSerializer(
-            comments, many=True, context={'request': request}
+            instance=comments,
+            many=True,
+            context={'request': request},
         )
 
         response = resp.data
@@ -39,24 +41,32 @@ class FuelViewSet(ReadOnlyModelViewSet):
         response['comments'] = com_serializer.data
 
         return Response(response)
-    
+
     @action(detail=True, methods=['post'])
     def rate(self, request, slug=None):
         fuel = self.get_object()
         content = ContentType.objects.get_for_model(Fuel)
 
-        r = Rating.objects.filter(
-            user=request.user, content_type=content, object_id=fuel.id
+        rating = Rating.objects.filter(
+            user=request.user,
+            content_type=content,
+            object_id=fuel.id,
         )
-        if not r.exists():
+        if not rating.exists():
             serializer = RatingSerializer(data=request.data)
             serializer.is_valid(raise_exception=True)
             serializer.save(
-                user=request.user, content_type=content, object_id=fuel.id
+                user=request.user,
+                content_type=content,
+                object_id=fuel.id,
             )
             return Response(serializer.data, status.HTTP_201_CREATED)
         else:
-            serializer = RatingSerializer(r.first(), data=request.data, partial=True)
+            serializer = RatingSerializer(
+                instance=rating.first(),
+                data=request.data,
+                partial=True,
+            )
             serializer.is_valid(raise_exception=True)
             serializer.save()
             return Response(serializer.data)
@@ -65,27 +75,36 @@ class FuelViewSet(ReadOnlyModelViewSet):
     def add_comment(self, request, slug=None):
         fuel = self.get_object()
         content_type = ContentType.objects.get_for_model(Fuel)
-        serializer = CommentSerializer(data=request.data, context={'request': request})
+        serializer = CommentSerializer(
+            data=request.data,
+            context={'request': request},
+        )
         serializer.is_valid(raise_exception=True)
-        serializer.save(user=request.user, content_type=content_type, object_id=fuel.id)
+        serializer.save(
+            user=request.user,
+            content_type=content_type,
+            object_id=fuel.id,
+        )
         return Response(serializer.data, status.HTTP_201_CREATED)
 
 
-class OrderViewSet(mixins.ListModelMixin, mixins.CreateModelMixin, GenericViewSet):
+class OrderViewSet(
+    mixins.ListModelMixin,
+    mixins.CreateModelMixin,
+    GenericViewSet,
+):
     serializer_class = serializers.OrderSerializer
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
         return Order.objects.filter(owner=self.request.user).select_related(
-            'owner', 'fuel_type'
+            'owner',
+            'fuel_type',
         )
 
-    def create(self, request, *args, **kwargs):
-        serializer = self.get_serializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
+    def perform_create(self, serializer):
         code = str(random.randint(100000, 999999))
-        serializer.save(owner=request.user, code=code)
-        return Response(serializer.data, status.HTTP_201_CREATED)
+        serializer.save(owner=self.request.user, code=code)
 
     @action(detail=True, methods=['post'], url_path='verify-code')
     def verify_code(self, request, pk=None):
@@ -97,22 +116,22 @@ class OrderViewSet(mixins.ListModelMixin, mixins.CreateModelMixin, GenericViewSe
         serializer = serializers.VerifyOrderSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
 
-        if order.used == True:
+        if order.used:
             return Response(
-                {'status': 'This code has been already used'}, 
-                status.HTTP_400_BAD_REQUEST
+                data={'status': 'This code has been already used'},
+                status=status.HTTP_400_BAD_REQUEST,
             )
-        
+
         elif serializer.validated_data['code'] != order.code:
             return Response(
-                {'status': 'Wrong code'},
-                status.HTTP_400_BAD_REQUEST
+                data={'status': 'Wrong code'},
+                status=status.HTTP_400_BAD_REQUEST,
             )
-        
+
         order.used = True
         order.save()
         return Response({'status': 'success'})
-        
+
 
 class FuelPricesAPIView(ListAPIView):
     serializer_class = serializers.FuelPricesSerializer
@@ -140,7 +159,7 @@ class FuelPricesAPIView(ListAPIView):
             'anp': anp_serializer.data,
         }
         return Response(data)
-    
+
 
 class WogAPIView(BaseStationMixin):
     serializer_class = serializers.WogSerializer

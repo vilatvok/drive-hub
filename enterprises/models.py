@@ -8,7 +8,7 @@ from phonenumber_field.modelfields import PhoneNumberField
 from users.models import Comment, Rating
 
 
-class Enterprice(models.Model):
+class Enterprise(models.Model):
     slug = models.SlugField(unique=True, max_length=35)
     name = models.CharField(max_length=50, unique=True)
     owner = models.CharField(max_length=30)
@@ -19,7 +19,9 @@ class Enterprice(models.Model):
     address = models.CharField()
     is_verified = models.BooleanField(default=False)
     added_by = models.ForeignKey(
-        get_user_model(), on_delete=models.PROTECT, related_name='%(class)s_added'
+        to=get_user_model(),
+        on_delete=models.PROTECT,
+        related_name='%(class)s_added',
     )
 
     class Meta:
@@ -34,19 +36,27 @@ class Enterprice(models.Model):
         return super().save(*args, **kwargs)
 
 
-class Company(Enterprice):
+class Company(Enterprise):
     website = models.URLField(blank=True, null=True)
 
 
-class CarService(Enterprice):
+class CarService(Enterprise):
     INDUSTRY = [('car wash', 'Car Wash'), ('car service', 'Car Service')]
 
     industry = models.CharField(choices=INDUSTRY)
     company = models.ForeignKey(
-        'Company', on_delete=models.CASCADE, related_name='car_service'
+        to='Company',
+        on_delete=models.CASCADE,
+        related_name='car_service',
     )
-    comments = GenericRelation(Comment, related_query_name='service_comment')
-    rating = GenericRelation(Rating, related_query_name='service_rating')
+    comments = GenericRelation(
+        to=Comment, 
+        related_query_name='service_comment',
+    )
+    rating = GenericRelation(
+        to=Rating, 
+        related_query_name='service_rating',
+    )
 
     @property
     def average_rating(self):

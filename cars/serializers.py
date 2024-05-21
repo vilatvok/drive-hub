@@ -26,7 +26,8 @@ class ElectricCarSerializer(serializers.ModelSerializer):
 class FuelCarSerializer(serializers.ModelSerializer):
     owner = serializers.ReadOnlyField(source='owner.username')
     fuel_type = serializers.SlugRelatedField(
-        slug_field='name', queryset=Fuel.objects.all()
+        slug_field='name',
+        queryset=Fuel.objects.all(),
     )
     verified = serializers.ReadOnlyField()
 

@@ -46,7 +46,7 @@ def cancel_coupon(coupon_id):
     for_delete = Coupon.objects.get(id=coupon_id)
     for_delete.state = False
     for_delete.save()
-    
+
     Fuel.objects.filter(coupon__in=for_delete).update(coupon=None)
 
 
@@ -56,17 +56,17 @@ def coupon_scheduler(coupon_id, date_start, date_end):
         minute=date_start.minute,
         hour=date_start.hour,
         day_of_month=date_start.day,
-        month_of_year=date_start.month
+        month_of_year=date_start.month,
     )
     coupon = PeriodicTask.objects.filter(name=f'set-coupon-{coupon_id}')
-	
+
     if not coupon.exists():
         PeriodicTask.objects.create(
             crontab=crontab,
             name=f'set-coupon-{coupon_id}',
             task='users.tasks.set_coupon',
             args=json.dumps([coupon_id]),
-		)
+        )
     else:
         coupon[0].crontab = crontab
         coupon[0].save()
@@ -76,7 +76,7 @@ def coupon_scheduler(coupon_id, date_start, date_end):
         minute=date_end.minute,
         hour=date_end.hour,
         day_of_month=date_end.day,
-        month_of_year=date_end.month
+        month_of_year=date_end.month,
     )
 
     coupon = PeriodicTask.objects.filter(name=f'cancel-coupon-{coupon_id}')

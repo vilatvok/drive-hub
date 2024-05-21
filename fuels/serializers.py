@@ -8,7 +8,8 @@ from fuels.models import Order, Fuel
 
 class FuelSerializer(serializers.HyperlinkedModelSerializer):
     url = serializers.HyperlinkedIdentityField(
-        view_name='fuels-detail', lookup_field='slug'
+        view_name='fuels-detail',
+        lookup_field='slug',
     )
     coupon = serializers.ReadOnlyField(source='coupon.name')
 
@@ -20,7 +21,8 @@ class FuelSerializer(serializers.HyperlinkedModelSerializer):
 class OrderSerializer(serializers.ModelSerializer):
     owner = serializers.ReadOnlyField(source='owner.username')
     fuel_type = serializers.SlugRelatedField(
-        slug_field='name', queryset=Fuel.objects.all()
+        slug_field='name',
+        queryset=Fuel.objects.all(),
     )
     code = serializers.CharField(read_only=True)
     used = serializers.BooleanField(read_only=True)
@@ -33,24 +35,22 @@ class OrderSerializer(serializers.ModelSerializer):
     # fuel amount
     def get_amount(self, obj):
         ach = obj.owner.achievements.first()
+        price = obj.fuel_type.price
         try:
             date_end = ach.date_achievement + timedelta(days=3)
             if date_end > datetime.now(timezone.utc):
-                return Decimal(str(
-                    round(obj.payment / (obj.fuel_type.price
-                        - (obj.fuel_type.price * ach.user_achievement.get().bonus)
-                        / 100), 2)
-                    )
-                )
-        except:
-            return Decimal(str(round(obj.payment / obj.fuel_type.price, 2)))
+                bonus = ach.user_achievement.get().bonus
+                price_with_bonus = price - (price * bonus) / 100
+                return Decimal(str(round(obj.payment / price_with_bonus, 2)))
+        except AttributeError:
+            return Decimal(str(round(obj.payment / price, 2)))
 
 
 class VerifyOrderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Order
         fields = ['code']
-    
+
 
 class WogSerializer(serializers.Serializer):
     id = serializers.IntegerField()
